@@ -1,0 +1,145 @@
+.why-rel-country-container{
+    background: linear-gradient(1deg, rgb(168, 160, 160) 0%, rgb(223, 132, 107) 80%);
+    display: flex;
+    height: 50vw;
+    align-items: center;
+    justify-content:center;
+}
+
+.why-rel-country-container-flag{
+    padding: 2% 2% 2% 2%;
+}
+
+.why-rel-country-container-flag img{
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 2px solid #faf7f0;   
+}
+
+.rel-text-Can{
+    padding: 2%;
+}
+
+
+.rel-text-Can p{
+    font-size: 16px;
+    width: 35vw;
+    color: white;
+    padding: 0.5vw 1vw; 
+    border-radius: 10px; 
+}
+
+.Can-child1,.Can-child2,.Can-child3,.Can-child4,.Can-child5 {
+    position: relative;
+    border-radius: 50px;
+    height:  5vw;
+    width: 40vw;
+    margin: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Can-child1 {
+    background:  #b11212;    
+    left: -2.5vw;   
+}
+
+
+.Can-child2 {
+    background: black;    
+    left: -1vw;
+}
+
+.Can-child3 {
+    background: #b11212;
+    left: 0vw;
+}
+
+.Can-child4 {
+    background: #131312;;
+    left: -1vw;
+}
+
+.Can-child5 {
+    background:  #b11212;    
+    left: -2.5vw;
+}
+
+@media only screen and (max-width: 1000px){
+    .Can-child1,.Can-child2,.Can-child3,.Can-child4,.Can-child5 {
+        height: 7.2vw;
+        width: 47vw;
+    }
+
+    .rel-text-Can p{
+        padding: 1vw 1vw; 
+        font-size: 16px;
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .Can-child1,.Can-child2,.Can-child3,.Can-child4,.Can-child5 {
+        height: 10vh;
+        width: 65vw;
+        left: 0;
+    }
+
+    .rel-text-Can p{
+        font-size: 16px;
+        padding: 1vw 2.5vw;
+        width: 60vw;
+    }
+
+
+}
+
+@media only screen and (max-width:590px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .why-rel-country-container-flag{
+        margin-top: 20px;
+    }
+
+    .why-rel-country-container-flag img{
+        height: 55vw;
+        width: 55vw;
+    }
+
+    .Can-child1,.Can-child2,.Can-child3,.Can-child4,.Can-child5 {
+        width: 75vw;
+        height: 12vh;
+        left: 0;
+    }
+
+    .rel-text-Can p{
+        width: 65vw;
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .Can-child1,.Can-child2,.Can-child3,.Can-child4,.Can-child5 {
+        height: fit-content;
+        width: 85vw;
+    }
+    .why-rel-country-container-flag img{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .rel-text-Can p{
+        width: 80vw;
+        padding: 10px 15px;
+    }
+}

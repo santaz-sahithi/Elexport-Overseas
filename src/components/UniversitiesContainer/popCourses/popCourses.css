@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.courses_title{
+    color: #0C5448;
+    margin:4vh 0 2% 3% ;
+    font-size: 2.5rem;
+    justify-content: space-around;
+    white-space: nowrap;
+
+}
+
+.courses_title h2{
+    font-weight: 1000;
+}
+
+.courses{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.course_1{
+    flex:0.4;
+    width: 50%;
+}
+
+.course_2{
+    flex: 0.4;
+    width: 50%;
+}
+
+
+.course_name{
+    white-space: nowrap;
+    background: linear-gradient(90deg, rgba(12, 84, 72, 1) 40%, rgba(239, 181, 4, 1) 100%);
+    padding:4% 15%; 
+    margin: 10px;
+    border-radius:20px;
+    width:fit-content;
+    color:aliceblue;    
+    font-size: clamp(1rem,1.3vw,4rem);
+}
+
+
+@media only screen and (min-width: 725px) and (max-width:950px){
+    .courses1{
+        flex: 0.5;
+    }
+    .course_2{
+        flex: 0.4;
+    }
+    .courses{
+        justify-content: space-evenly;
+    }   
+    .courses_title{
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+        margin-bottom: 0;
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width:405px) and (max-width:725px){
+    .courses{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5vh;
+    }
+
+    .course_1,.course_2{
+        flex: 1;
+        margin-left: 8vw;
+        width: 70%;
+    }
+
+    .course_2{
+        margin-bottom:20px ;
+    }
+
+    .course_name{
+        padding:4% 15%;
+        margin: 15px 0px 0 0; 
+    }   
+
+    .courses_title{
+        padding-top: 3vh;
+        padding-bottom: 2vh;
+        margin-bottom: 0;
+        font-size: 2.3rem;
+        margin-left: 5vh;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:405px) {
+ 
+    .courses{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5vh;
+    }
+
+    .course_1,.course_2{
+        flex: 1;
+        margin:auto;
+        width: 90%;
+    }
+    
+    .course_name{
+        padding:4% 10%;
+        margin: 2.7vh 0px 0 2vh; 
+    }  
+
+    .courses_title{
+        padding-top: 3vh;
+        margin-bottom: 0;
+        font-size: 2.2rem;
+        margin-left: 3vh;
+    }
+}

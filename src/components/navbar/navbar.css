@@ -1,0 +1,166 @@
+/* Navbar styles */
+.fresh-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #333; */
+  background-color: #33333347;
+  padding: 0px 0px;
+  overflow: hidden;
+  z-index: 5;
+  position:fixed;
+  width: 100%;
+}
+
+.fresh-logo img {
+  width: 120px;
+  height: auto;
+}
+
+/* Main navigation styling */
+.fresh-nav {
+  display: flex;
+  align-items: center;
+}
+
+.fresh-nav a{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fresh-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.fresh-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.fresh-menu a:hover {
+  background-color: #0c5448;
+  border-radius: 5px;
+}
+
+/* Dropdown container */
+.fresh-dropdown {
+  position: relative;
+  /* display: block; */
+}
+
+/* Link to trigger dropdown */
+.dropdown-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+/* The actual dropdown menu (hidden by default) */
+.fresh-dropdown-content {
+  display: none;
+  position: relative; 
+  background-color: rgba(51, 51, 51, 0.95); /* Slightly transparent black background */
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 100000; /* Ensure it's on top of everything else */
+  border-radius: 5px;
+  /* top: 100%; Position right below the parent */
+  left: 0;
+  padding: 5px 0;
+  height: 300px;
+}
+
+
+/* Dropdown menu links */
+.fresh-dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #555;
+}
+
+.fresh-dropdown-content a:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect on dropdown links */
+/* .fresh-dropdown-content a:hover {
+  background-color: #555;
+  border-radius: 5px;
+
+} */
+
+/* Show the dropdown menu when hovering over the fresh-dropdown */
+.fresh-dropdown:hover .fresh-dropdown-content {
+  display: block;
+
+}
+
+/* Optionally, add hover effect for the main Countries link */
+/* .fresh-dropdown:hover .dropdown-link {
+  background-color: #555;
+  border-radius: 5px;
+} */
+
+/* Mobile menu toggle button */
+.fresh-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  cursor: pointer;
+}
+
+.fresh-menu-toggle span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+
+  .fresh-menu {
+    display: none;
+    flex-direction: column;
+    /* position: absolute; */
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .fresh-menu a {
+    padding: 12px 20px;
+    border-bottom: 1px solid #555;
+  }
+
+  .fresh-menu a:last-child {
+    border-bottom: none;
+  }
+
+  /* Show menu when menuOpen state is active */
+  .fresh-show-menu {
+    display: flex;
+  }
+
+  .fresh-menu-toggle {
+    display: flex;
+  }
+
+  /* Dropdown adjustment for mobile */
+  .fresh-dropdown-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

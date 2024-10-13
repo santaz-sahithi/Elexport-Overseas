@@ -1,0 +1,68 @@
+.tagline-container {
+    margin: 12vh 5vw 5vh 5vw; /* Changed to vw for responsive margins */
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tagline-box {
+    position: relative;
+    padding: 2vh 4vw; /* Changed to vh and vw for responsive padding */
+    background-color: #0C5448;
+    font-size: 1.8rem; /* Changed to vw for responsive font-size */
+    font-weight: bold;
+    border-radius: 100px;
+    width: fit-content; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+    white-space: no-wrap;
+  }
+  
+  .tagline-box:hover {
+    background-color: #00483c;
+  }
+  
+ 
+  .tagline-box h2 span {
+    display: inline-block;
+    color: #F3AE27;
+    text-transform: uppercase;
+    animation: flip 4.5s infinite;
+    animation-delay: calc(0.15s * var(--i));
+  }
+  
+  @keyframes flip {
+    0%, 80% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1200px) {
+    .tagline-box h2 {
+      font-size:3vw; /* Reduce font-size for smaller screens */
+      width: 60vw; /* Adjust width */
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tagline-box h2 {
+      font-size: 3.2vw; /* Further reduce font-size */
+      max-height: 5.5vh;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tagline-box h2 {
+      font-size: 3.3vw; /* Smaller font-size for small screens */
+    }
+
+    .tagline-container{
+      margin: 12vh 5vw 1vh 5vw; /* Changed to vw for responsive margins */
+    }
+  }
+  
+  

@@ -1,0 +1,125 @@
+.country{
+    display:flex;
+    margin:auto;
+    background: #0c6448;
+    margin:5% auto;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 23vw;
+    cursor: pointer;
+}
+
+
+.country_div{
+  display: flex;
+  flex-direction: column;
+  flex:0.4;
+  height:fit-content;
+}
+
+.country_title{
+ position:absolute;
+ margin-top: 19vw;
+ margin-left: 2vw;
+ color: white;
+}
+
+.country_img{
+ width:100%;
+ height: 23vw;
+ border-radius: 20px;
+}
+
+.country_text{
+  color: white;
+  flex:0.6;
+}
+
+.country_p{
+  font-size:1.25rem;
+  width:93%;
+  margin: auto;
+  line-height:1.5;
+  overflow: hidden;
+}
+
+/* Responsiveness */
+@media screen and (min-width: 990px) and (max-width: 1220px){
+  .country_p{
+     font-size:1rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width:990px) {
+  .country{
+    flex-direction: column;
+    height:auto;
+    background-color: white;
+  }
+  .country_div{
+    width: 100%;
+    margin: 2vw 2vw 0vw 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .country_div img{
+    height: 40vw;
+    width: 100%;
+    justify-content: left;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .country_title{
+    margin-top: 33vw;
+  }
+
+  .country_text{
+    background-color: #0c6448;
+    }
+
+  .country_p{
+    margin:3% auto 10px auto;
+  }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width:500px) {
+  .country{
+    flex-direction: column;
+    height:auto;
+    width: 95%;
+    background-color: white;
+  }
+  .country_div{
+    width: 100%;
+    margin: 2vw 2vw 0vw 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .country_div img{
+    height: 60vw;
+    width: 100%;
+    justify-content: left;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .country_title{
+    margin-top: 33vw;
+  }
+
+  .country_text{
+    background-color: #0c6448;
+    }
+
+  .country_p{
+    margin:3% auto 10px auto;
+  }
+
+}
