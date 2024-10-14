@@ -1,22 +1,22 @@
 import React from "react";
 import "./OurServices.css";
-import CareerGuidancePic from "../../../assests/CareerGuideImg.jpg";
-import GermanTraining from "../../../assests/IELTSTrainingImg.jpg";
-import HRServices from "../../../assests/StudyAbroadImg.jpg";
-import IELTSTraining from "../../../assests/IELTSTrainingImg.jpg";
-import Migration from "../../../assests/MigrationImg.jpg";
+import ScholarshipAssistance from "../../../assests/S_ScholarshipAssistance.jpg";
+import UniApp from "../../../assests/S_UniversityApplication.jpg";
+import PreDep from "../../../assests/V_PreDeparture.jpg";
+import AccoAssis from "../../../assests/V_Accomodation.jpg";
+import CourseAdvice from "../../../assests/S_CourseAdvice.jpg";
 import StudyAbroad from "../../../assests/StudyAbroadImg.jpg";
-import TradeConsultancyPic from "../../../assests/VisaApplicaionImg.jpg";
+import VisaAppPic from "../../../assests/S_VisaApplication.jpg";
 
 function OurServices() {
   const services = [
-    { img: CareerGuidancePic, title: "Career Guidance" },
-    { img: TradeConsultancyPic, title: "Visa Application Assistance" },
-    { img: GermanTraining, title: "Language Training" },
-    { img: Migration, title: "Migration" },
-    { img: HRServices, title: "Flight Booking" },
+    { img: ScholarshipAssistance, title: "Scholarship Assistance" },
+    { img: VisaAppPic, title: "Visa Application Assistance" },
+    { img: UniApp, title: "University Application" },
+    { img: CourseAdvice, title: "Course Advice" },
     { img: StudyAbroad, title: "Study Abroad" },
-    { img: IELTSTraining, title: "IELTS and Test Preperation Training" },
+    { img: PreDep, title: "Pre Departure Assistance" },
+    { img: AccoAssis, title: "Accomodation Assistance" },
   ];
 
   return (

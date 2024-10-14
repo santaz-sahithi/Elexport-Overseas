@@ -14,6 +14,7 @@ import Australia from '../assests/CL_Australia.jpg'
 import America from '../assests/CL_America.jpg'
 import Slovenia from '../assests/CL_Slovenia.jpg'
 import Hungary from '../assests/CL_Hungary.jpg'
+import Austria from '../assests/CL_Austria.jpg'
 import Display from "../components/Countries/disPlay/Display";
 
 const CountryList = () => {
@@ -176,7 +177,16 @@ const CountryList = () => {
         text="Hungary is an appealing destination for higher education, known for its historic universities and affordable tuition. Many programs are offered in English, particularly in medicine, engineering, and social sciences. The country boasts a rich cultural heritage and vibrant urban life, creating an enriching environment for students. Various scholarships for international students enhance affordability. With a safe atmosphere and a welcoming spirit, Hungary provides a unique blend of academic excellence and cultural immersion."
         title="Hungary"
       />
+
+      {/* Austria */}
+      <SingleCountry
+        img={Austria}
+        alt="No image"
+        text="Austria is a distinctive destination for higher education, renowned for its rich academic tradition and breathtaking alpine scenery. Many universities offer diverse programs in English, especially in arts, humanities, and technology. The vibrant cultural life, including classical music and contemporary arts, enriches the student experience. Affordable tuition and various scholarships enhance accessibility for international students. With its safe and picturesque environment, Austria fosters a sense of community, making it an ideal choice for academic and cultural exploration."
+        title="Austria"
+      />
       
+
     </div>
   );
 };

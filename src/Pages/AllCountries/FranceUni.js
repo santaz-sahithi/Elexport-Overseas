@@ -1,29 +1,57 @@
-import React from 'react'
-import FranceImg from './assets/France/france.jpg';
-import FranceFlag from './assets/France/franceflag.jpg';
-import uni1 from './assets/France/Queen Mary University of London Institute in Paris.jpg';
-import uni2 from './assets/France/Skema Business School.jpg';
-import uni3 from './assets/France/Rennes School of Business.jpg';
-import uni4 from './assets/France/NEOMA Business School.jpg';
-import uni5 from './assets/France/Institut supérieur d`électronique de Paris.jpg';
-import uni6 from './assets/France/Burgundy School of Business.jpg';
-import uni7 from './assets/France/ESSCA School of Management.jpg';
-import uni8 from './assets/France/Institut supérieur du commerce de Paris.jpg';
-import uni9 from './assets/France/Ecole.jpg';
+import React, { useEffect } from "react";
+import {
+  CountryHome,
+  PopCourses,
+} from "../../components/UniversitiesContainer";
+import FranceCountry from "../../components/UniversitiesContainer/FranceCountry/FranceCountry";
+import FranceUniversities from "../../components/UniversitiesContainer/FranceUniversities/FranceUniversities";
+import FranceImg from "../../assests/FranceHeroImg.jpg";
+import FranceFlag from "../../assests/FranceFlagImg.jpg";
+import uni_1 from "../../assests/QueenMaryUniv.jpg";
+import uni_2 from "../../assests/SkemaBuisnessUniv.jpg";
+import uni_3 from "../../assests/RennesSchoolImg.jpg";
+import uni_4 from "../../assests/NEOMAUnivImg.jpg";
+import uni_5 from "../../assests/ISEPUnivImg.jpg";
+import uni_6 from "../../assests/BurgundyUniv.jpg";
+import uni_7 from "../../assests/ESSCAUniv.jpg";
+import uni_8 from "../../assests/ISCUnivImg.jpg";
+import uni_9 from "../../assests/IMTMilnesUniv.png";
 
-import CountryHome5 from './UniversitiesContainer/countryHome/CountryHome5';
-import AboutCountry5 from './UniversitiesContainer/aboutCountry/AboutCountry5';
-import PopCourses5 from './UniversitiesContainer/popCourses/PopCourses5';
-import PopUniversities5 from './UniversitiesContainer/popUniversities/PopUniversities5';
-
-function FranceUni() {
-
+const FranceUni = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
-    <div> <CountryHome5 rel_country_img = {FranceImg} rel_country_name = "FRANCE" img_dec_prop = ""/>
-    <AboutCountry5 rel_country_flag = {FranceFlag} here_we_go_again = ""/> 
-    <PopUniversities5 pop_uni_img1 = {uni1} pop_uni1 = "Queen Mary University of London Institute in Paris " pop_uni_img2 = {uni2} pop_uni2 = "Skema Business School" pop_uni_img3 = {uni3} pop_uni3 = "Rennes School of Business" pop_uni_img4 = {uni4} pop_uni4 = "NEOMA Business School" pop_uni_img5 = {uni5} pop_uni5 = "Institut supérieur d`électronique de Paris" pop_uni_img6 = {uni6} pop_uni6 = "Burgundy School of Business " pop_uni_img7 = {uni7} pop_uni7 = "ESSCA School of Management" pop_uni_img8 = {uni8} pop_uni8 = "Institut supérieur du commerce de Paris" pop_uni_img9 = {uni9} pop_uni9 = "Ecole Nationale Supérieure des Mines d'Alès" />    
-    <PopCourses5 /> </div>
-  )
-}
+    <div>
+      <CountryHome
+        rel_country_img={FranceImg}
+        rel_country_name="FRANCE"
+        img_dec_prop=""
+      />
+      <FranceCountry rel_country_flag={FranceFlag} here_we_go_again="" />
+      <FranceUniversities
+        France_uni_img1={uni_1}
+        France_uni1="Queen Mary University"
+        France_uni_img2={uni_2}
+        France_uni2="Skema Business School"
+        France_uni_img3={uni_3}
+        France_uni3="Rennes School of Business"
+        France_uni_img4={uni_4}
+        France_uni4="NEOMA Business School"
+        France_uni_img5={uni_5}
+        France_uni5="ISEP University Paris"
+        France_uni_img6={uni_6}
+        France_uni6="Burgundy School of Business "
+        France_uni_img7={uni_7}
+        France_uni7="ESSCA University"
+        France_uni_img8={uni_8}
+        France_uni8="ISC University Paris"
+        France_uni_img9={uni_9}
+        France_uni9="IMT Mines, Alès"
+      />
+      <PopCourses/>
+    </div>
+  );
+};
 
-export default FranceUni
+export default FranceUni;

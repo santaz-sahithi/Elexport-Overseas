@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   CountryHome,
   PopCourses,
@@ -16,6 +16,9 @@ import uni_6 from "../../assests/TallaghtUniversity.jpg";
 import uni_7 from "../../assests/AtlanticTechUniversity.jpg";
 
 const IrelandUni = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <div>
       <CountryHome
@@ -25,20 +28,20 @@ const IrelandUni = () => {
       />  
       <IrelandCountry rel_country_flag={IrelandFlag} here_we_go_again="" />
       <IrelandUniversities
-        pop_uni_img1={uni_1}
-        pop_uni1="Dundalk Institute of Tech."
-        pop_uni_img2={uni_2}
-        pop_uni2="Tech. University Dublin"
-        pop_uni_img3={uni_3}
-        pop_uni3="Dublin Business School"
-        pop_uni_img4={uni_4}
-        pop_uni4="Waterford Institute of Tech."
-        pop_uni_img5={uni_5}
-        pop_uni5="Griffith College Cork"
-        pop_uni_img6={uni_6}
-        pop_uni6="Institute of Tech., Tallaght"
-        pop_uni_img7={uni_7}
-        pop_uni7="Atlantic Tech. University"
+        Ireland_uni_img1={uni_1}
+        Ireland_uni1="Dundalk Institute of Tech."
+        Ireland_uni_img2={uni_2}
+        Ireland_uni2="Tech. University Dublin"
+        Ireland_uni_img3={uni_3}
+        Ireland_uni3="Dublin Business School"
+        Ireland_uni_img4={uni_4}
+        Ireland_uni4="Waterford Institute of Tech."
+        Ireland_uni_img5={uni_5}
+        Ireland_uni5="Griffith College Cork"
+        Ireland_uni_img6={uni_6}
+        Ireland_uni6="Institute of Tech., Tallaght"
+        Ireland_uni_img7={uni_7}
+        Ireland_uni7="Atlantic Tech. University"
       />
       <PopCourses />
     </div>

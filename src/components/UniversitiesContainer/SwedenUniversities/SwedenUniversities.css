@@ -42,13 +42,13 @@
 
 .Swe_uni_name1,.Swe_uni_name2,.Swe_uni_name3,.Swe_uni_name4,.Swe_uni_name5,.Swe_uni_name6,.Swe_uni_name7,.Swe_uni_name8,.Swe_uni_name9{
     white-space: nowrap;
-    width: 22vw;
-    height: 5vh;    
+    width: 18vw;
+    height: 3vh;    
     color:white;
     position: absolute;
     margin-top: 22vw;
     margin-left: 12vw;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 20px;
     padding:  0.5% 2%;
 }
@@ -58,7 +58,8 @@
 }
 
 .Swe_uni_name2{
-    background-color: rgba(12,47, 108, 80%);
+    background-color: rgba(255, 255, 0, 0.726);
+    color: black;
 }
 
 .Swe_uni_name3{
@@ -66,24 +67,24 @@
 }
 
 .Swe_uni_name4{
-    background-color: rgba(12,47, 108, 80%);
-}
+    background-color: rgba(255, 255, 0, 0.726);
+    color: black;}
 
 .Swe_uni_name5{
     background-color: rgba(12,47, 108,80%);
 }
 
 .Swe_uni_name6{
-    background-color: rgba(12,47, 108,80%);
-}
+    background-color: rgba(255, 255, 0, 0.726);
+    color: black;}
 
 .Swe_uni_name7{
     background-color: rgba(12,47, 108,80%);
 
 }
 .Swe_uni_name8{
-    background-color: rgba(12,47, 108,80%);
-}
+    background-color: rgba(255, 255, 0, 0.726);
+    color: black;}
 
 .Swe_uni_name9{
     background-color: rgba(12,47, 108,80%);
@@ -132,15 +133,15 @@
     }
 
     .Swe_uni_images img{
-        width: 60vw;
-        height: 40vh;  
+        width: 40vh;
+        height: 50vh;  
     }
 
     .Swe_uni_name1,.Swe_uni_name2,.Swe_uni_name3,.Swe_uni_name4,.Swe_uni_name5,.Swe_uni_name6,.Swe_uni_name7,.Swe_uni_name8,.Swe_uni_name9{
-        margin-top: 39vh;
-        margin-left: 12vw;
+        margin-top: 48vh;
+        margin-left: 18vw;
         font-size: 16px;
-        width: 33vh;
+        width: 35vh;
         height: 4vh;
     }
 

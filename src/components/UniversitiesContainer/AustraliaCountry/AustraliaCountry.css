@@ -1,5 +1,5 @@
 .why-rel-country-container{
-    background: #0C5448;
+    background: linear-gradient(1deg, rgb(168, 160, 160) 0%, rgb(223, 132, 107) 80%);
     display: flex;
     height: 50vw;
     align-items: center;
@@ -8,103 +8,110 @@
 
 .why-rel-country-container-flag{
     padding: 2% 2% 2% 2%;
-    z-index: 0;
-    
 }
 
 .why-rel-country-container-flag img{
     height: 35vw;
     width: 35vw;
     border-radius: 50%;
-    border: 2px solid #F3AE27;   
+    border: 2px solid #faf7f0;   
 }
 
-.rel-text{
-    padding: 2%;
-    width: fit-content;
+.rel-text-Aus{
+    padding-left: 5%;
 }
 
 
-.rel-text p{
-    font-size: 1.1vw;
-    width: 31vw; 
+.rel-text-Aus p{
+    font-size: 16px;
+    width: 35vw;
     color: white;
-    margin: 2% auto;
-    padding: 3%;
-    line-height: 1.5;
+    padding: 0.5vw 1vw; 
+    border-radius: 10px; 
 }
 
-.child1,.child2,.child3,.child4,.child5 {
+.Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
     position: relative;
     border-radius: 50px;
     height:  5vw;
+    width: 40vw;
     margin: 1vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.child1 {
+.Australia-child1 {
     background: linear-gradient(5deg, rgba(255, 255, 255, 1) 0%, rgba(12, 55, 152, 1) 25%, rgba(1, 33, 105, 1) 71%, rgba(228, 0, 43, 1) 98%);
-    left: -5vw;   
+    left: -2.5vw;   
 }
 
-.child1 p {
+.Australia-child1 p {
     color: white !important;
 }
 
-.child2 {
+.Australia-child2 {
     background: #012169;    
-    left: -2.5vw;
-}
-
-.child2 p {
-    color: white !important;
-}
-
-.child3 {
-    background: white;
     left: -1vw;
 }
 
-.child3 p {
+.Australia-child2 p {
+    color: white !important;
+}
+
+.Australia-child3 {
+    background: white;
+    left: 0vw;
+}
+
+.Australia-child3 p {
     color: #000 !important;
 }
 
-.child4 {
+.Australia-child4 {
     background: #E4002B;
-    left: -2.5vw;
+    left: -1vw;
 }
 
-.child5 {
+.Australia-child5 {
     background: linear-gradient(5deg, rgba(228, 0, 43, 1) 2%, rgba(1, 33, 105, 1) 29%, rgba(12, 55, 152, 1) 75%, rgba(255, 255, 255, 1) 100%);
     left: -2.5vw;
 
 }
 
-.child5 p {
+.Australia-child5 p {
     color: white !important;
 }
 
-
 @media only screen and (max-width: 1000px){
-    .child1,.child2,.child3,.child4,.child5 {
-        height: 6vw;
-        width: 40vw;
+    .Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
+        height: 7.2vw;
+        width: 47vw;
     }
 
-    .rel-text p{
-        font-size: 14px;
-        width: 35vw;
+    .rel-text-Aus p{
+        padding: 1vw 1vw; 
+        font-size: 15px;
+        width: 45vw;
     }
 }
 
-@media only screen and (min-width:590px) and (max-width: 700px) {
-    .child1,.child2,.child3,.child4,.child5 {
-        height: 5vh;
+@media only screen and (max-width: 700px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
     }
 
-    .rel-text p{
-        font-size: 0.7rem;
-        padding: 1.5vw;
+    .Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
+        height: 9vh;
+        width: 45vw;
+        padding: 0;
+        margin: 2vw;
+    }
+
+
+    .rel-text-Aus p{
+        font-size: 15px;
+        width: 40vw;
+        margin: 5px 15px;
+        padding: 0;
     }
 
 
@@ -125,24 +132,23 @@
         width: 55vw;
     }
 
-    .child1,.child2,.child3,.child4,.child5 {
+    .Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
         width: 75vw;
-        height: 12vw;
-        margin: 3vw;
+        height: 12vh;
         left: 0;
     }
 
-    .rel-text p{
-        width: 70vw;
-        font-size: 16px;
-        padding: 1.2vw;
-        margin-left: 10px;
-    }   
+    .rel-text-Aus p{
+        width: 65vw;
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    
 }
 
-@media screen and (max-width:500px) {
-    .child1,.child2,.child3,.child4,.child5 {
-        height: 10vh;
+@media screen and (max-width:450px) {
+    .Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
+        height: fit-content;
         width: 85vw;
     }
     .why-rel-country-container-flag img{
@@ -150,17 +156,8 @@
         height: 60vw;
     }
 
-    .child1,.child2,.child3,.child4,.child5 {
-        width: 80vw;
-        height: fit-content;
-        margin: 3vw;
-        left: 0;
-    }
-
-    .rel-text p{
-        width: 70vw;
-        font-size: 16px;
-        padding: 2.5vw;
-        margin-left: 10px;
+    .rel-text-Aus p{
+        width: 75vw;
+        margin: 0;
     }
 }

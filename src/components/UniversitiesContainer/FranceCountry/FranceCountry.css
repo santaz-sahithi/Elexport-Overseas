@@ -1,0 +1,188 @@
+.why-rel-country-container{
+    background: #0C5448;
+    display: flex;
+    height: 50vw;
+    align-items: center;
+    justify-content:center;
+}
+
+.why-rel-country-container-flag{
+    padding: 2% 2% 2% 2%;
+    z-index: 0;
+    
+}
+
+.why-rel-country-container-flag img{
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 2px solid #F3AE27;   
+}
+
+.rel-text-France{
+    padding-left: 5%;
+    width: fit-content;
+}
+
+
+.rel-text-France p{
+    font-size: 16px;
+    width: 38vw; 
+    color: white;
+    margin: 2% 3%;
+    line-height: 1.5;
+}
+
+.France-child1,.France-child2,.France-child3,.France-child4,.France-child5 {
+    position: relative;
+    border-radius: 50px;
+    height:  10vh;
+    margin: 1vw;
+    width: 40vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.France-child1 {
+    background: linear-gradient(90deg, rgba(0, 38, 84, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(237, 41, 57, 1) 100%);
+    left: -2.5vw;   
+}
+
+.France-child1 p {
+    color: black !important;
+}
+
+.France-child2 {
+    background:#002654;    
+    left: -1vw;
+}
+
+.France-child2 p {
+    color: white !important;
+}
+
+.France-child3 {
+    background: #FFFFFF;
+    left: -0vw;
+}
+
+.France-child3 p {
+    color: black !important;
+}
+
+.France-child4 {
+    background: #ED2939;
+    left: -1vw;
+}
+
+.France-child5 {
+    background: linear-gradient(90deg, rgba(0, 38, 84, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(237, 41, 57, 1) 100%);
+    left: -2.5vw;
+
+}
+
+.France-child5 p {
+    color: black !important;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .France-child1,.France-child2,.France-child3,.France-child4,.France-child5 {
+        height: 8vw;
+        width: 45vw;
+    }
+
+    .rel-text-France p{
+        margin: 1% 4%;
+        font-size: 16px;
+        width: 43vw;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:590px) and (max-width: 700px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .rel-text-France{
+        width: 90%;
+        padding-left: 0;
+    }
+
+    .France-child1,.France-child2,.France-child3,.France-child4,.France-child5 {
+        height: 9vh;
+        width: 70vw;
+        margin: 2% auto;
+        left: 0;
+    }
+
+    .rel-text-France p{
+        margin: 0 2%;
+        font-size: 16px;
+        padding: 1%;
+        width: 65vw;
+    }
+
+
+}
+
+@media only screen and (max-width:590px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .why-rel-country-container-flag{
+        margin-top: 20px;
+    }
+
+    .why-rel-country-container-flag img{
+        height: 55vw;
+        width: 55vw;
+    }
+
+    .France-child1,.France-child2,.France-child3,.France-child4,.France-child5 {
+        width: 75vw;
+        height: 12vw;
+        margin: 3vw;
+        left: 0;
+    }
+
+    .rel-text-France p{
+        width: 70vw;
+        font-size: 16px;
+        /* padding: 1.2vw; */
+        margin-left: 10px;
+    }   
+}
+
+@media screen and (max-width:500px) {
+    .France-child1,.France-child2,.France-child3,.France-child4,.France-child5 {
+        height: 10vh;
+        width: 85vw;
+    }
+    .why-rel-country-container-flag img{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .rel-text-France{
+        width: 90%;
+        padding-left: 0;
+    }
+
+    .France-child1,.France-child2,.France-child3,.France-child4,.France-child5 {
+        width: 80vw;
+        height: fit-content;
+        margin: 3vw auto;
+        left: 0;
+    }
+
+    .rel-text-France p{
+        width: 70vw;
+        font-size: 16px;
+        padding: 2.5vw;
+        margin-left: 10px;
+    }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import SwedenHome from '../../components/UniversitiesContainer/SwedenHome/SwedenHome';
 import PopCourses from "../../components/UniversitiesContainer/popCourses/PopCourses";
 import SwedenCountry from '../../components/UniversitiesContainer/SwedenCountry/SwedenCountry';
@@ -17,6 +17,9 @@ import Swe_uni_9 from "../../assests/Swe_uni-9.jpeg";
 import CountryHome  from "../../components/UniversitiesContainer/countryHome/CountryHome";
 
 const SwedenUni = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <div>
       <CountryHome

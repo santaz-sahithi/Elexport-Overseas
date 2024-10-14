@@ -1,5 +1,5 @@
-.why-rel-country-container{
-    background: #0C5448;
+.why-rel-country-container-Finland{
+    background-color: rgb(17, 84, 171);
     display: flex;
     height: 50vw;
     align-items: center;
@@ -30,7 +30,7 @@
     width: 40vw; 
     color: black;
     line-height: 1.3;
-    padding: 2%;
+    margin: 1% 4%;
 }
 
 .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
@@ -38,7 +38,7 @@
     border-radius: 50px;
     height:  5.2vw;
     margin: 1vw;
-    width: 42vw;
+    width: 43vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -49,6 +49,10 @@
 
 .Fin-child1 {
     color: black !important;
+}
+
+.Fin-child1 p{
+    color: white;
 }
 
 .Fin-child2 {
@@ -74,13 +78,17 @@
     left: -1vw ;
 }
 
+.Fin-child4 p{
+    color: white;
+}
+
 .Fin-child5 {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 47, 108, 1) 39%);    left: -2.5vw;
     left: -2.5vw;
 }
 
 .Fin-child5 p {
-    color: black !important;
+    color: white;
 }
 
 
@@ -98,19 +106,23 @@
 
 @media only screen and (min-width:590px) and (max-width: 700px) {
     .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
-        height: 5vh;
+        height: 7vh;
+        width: 40vw;
     }
 
     .rel-text-Fin p{
         font-size: 0.7rem;
         padding: 1.5vw;
+        width: 35vw;
+        padding: 0;
+        margin: 2% 4%;
     }
 
 
 }
 
 @media only screen and (max-width:590px) {
-    .why-rel-country-container{
+    .why-rel-country-container-Finland{
         flex-direction: column;
         height: fit-content;
     }
@@ -119,20 +131,25 @@
         margin-top: 20px;
     }
 
+    .rel-text-Fin{
+        width: 75%;
+        padding-left: 0;
+    }
+
     .why-rel-country-container-flag img{
         height: 55vw;
         width: 55vw;
     }
 
     .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
-        width: 75vw;
+        width: 70vw;
         height: 12vw;
         margin: 3vw;
         left: 0;
     }
 
     .rel-text-Fin p{
-        width: 70vw;
+        width: 65vw;
         font-size: 16px;
         padding: 1.2vw;
         margin-left: 10px;
@@ -140,6 +157,11 @@
 }
 
 @media screen and (max-width:500px) {
+    .why-rel-country-container-Finland{
+        flex-direction: column;
+        height: fit-content;
+    }
+
     .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
         height: 10vh;
         width: 85vw;
@@ -154,6 +176,11 @@
         height: fit-content;
         margin: 3vw;
         left: 0;
+    }
+
+    .rel-text-Fin{
+        width: 90%;
+        padding-left: 0;
     }
 
     .rel-text-Fin p{

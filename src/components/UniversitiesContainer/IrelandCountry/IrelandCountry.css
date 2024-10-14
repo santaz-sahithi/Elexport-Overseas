@@ -69,28 +69,23 @@
 @media only screen and (max-width: 1080px){
     .Ire-child1,.Ire-child2,.Ire-child3,.Ire-child4,.Ire-child5 {
         height: 6.5vw;
-        width: 40vw;
+        width: 47vw;
     }
 
     .rel-text-Ire{
         padding-left: 5%;
-        width: 45vw;
+        width: 48vw;
     }
     
     .rel-text-Ire p{
         font-size: 14px;
-        width: 40vw;
-        padding: 1% 2%;
-        margin: 0 ;
+        width: 45vw;
+        margin: 2px 5px;
 
     }
 }
 
 @media only screen and (max-width:700px) {
-    .why-rel-country-container{
-        flex-direction: column;
-        height: fit-content;
-    }
 
     .why-rel-country-container-flag{
         margin-top: 20px;
@@ -102,27 +97,32 @@
     }
 
     .Ire-child1,.Ire-child2,.Ire-child3,.Ire-child4,.Ire-child5 {
-        width: 75vw;
-        height: 10vw;
-        margin: 3vw auto;
-        left: 0;
-
+        width: 48vw;
+        height: 8vw;
+        margin: 2vw 0;
     }
 
     .rel-text-Ire{
-        width: 90%;
+        width: 50vw;
     }
-
     .rel-text-Ire p{
-        width: 70vw;
-        font-size: 16px;
-        padding: 1.2vw;
+        width: 45vw;
+        font-size: 14px;
         margin-left: 10px;
         text-align: center;
     }   
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .rel-text-Ire{
+        width: 90%;
+    }
+    
     .Ire-child1,.Ire-child2,.Ire-child3,.Ire-child4,.Ire-child5 {
         height: 10vh;
         width: 85vw;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import LatviaImg from '../../assests/latviaimg.jpg';
 import Latvia2 from '../../assests/latvia2.png';
 import uni1 from '../../assests/kazimieras.jpeg';
@@ -16,6 +16,9 @@ import LatviaUniversities from '../../components/UniversitiesContainer/LatviaUni
 import PopCourses from '../../components/UniversitiesContainer/popCourses/PopCourses';
 
 const LatviaUni = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <div> 
       <CountryHome rel_country_img = {LatviaImg} rel_country_name = "LATVIA" img_dec_prop = ""/>

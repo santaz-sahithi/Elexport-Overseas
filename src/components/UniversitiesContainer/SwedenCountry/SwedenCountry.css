@@ -109,15 +109,14 @@
 
     .child1,.child2,.child3,.child4,.child5 {
         height: 6vh;
-        width: 60vw;
-        left: 0;
+        width: 50vw;
         margin: 1.5vw;
     }
 
     .rel-text p{
         margin: 5px 10px;
         font-size: 0.7rem;
-        width: 50vw;
+        width: 45vw;
         line-height: 1;
     }
 

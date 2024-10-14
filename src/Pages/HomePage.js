@@ -3,7 +3,7 @@ import Herosection from '../components/homePage/HeroSection/HeroSection';
 import Tagline from '../components/homePage/Tagline/Tagline';
 import ExploreSection from '../components/homePage/ExploreSection/ExploreSection';
 import WhyWereTheBestChoice from '../components/homePage/WhyWereTheBestChoice/WhyWereTheBestChoice';
-// import OurServices from '../components/homePage/OurServices/OurServices';
+import OurServices from '../components/homePage/OurServices/OurServices';
 import AboutUs from '../components/homePage/AboutUs/AboutUs';
 import OurMission from '../components/homePage/OurMission/OurMission';
 import OurVision from '../components/homePage/OurVision/OurVision';
@@ -21,7 +21,7 @@ const HomePage = () => {
         <QA/>
         <ExploreSection/> 
         <WhyWereTheBestChoice/>
-        {/* <OurServices/> */}
+        <OurServices/>
         <AboutUs/> 
         <OurMission/>
         <OurVision/>    

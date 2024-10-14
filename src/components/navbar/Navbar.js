@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import freshLogo from "../../assests/LogoElexport.jpg"; // Update the path as per your logo's location
+import freshLogo from "../../assests/LogoElexpot_No bg.png"; // Update the path as per your logo's location
 // import { behavior } from '@testing-library/user-event/dist/cjs/event/behavior/registry.js';
 import { useNavigate } from 'react-router-dom';
-// import { behavior } from '@testing-library/user-event/dist/cjs/event/behavior/registry.js';
+import whatsappIcon from "../../assests/whatsapp-icon.png";
+import callIcon from "../../assests/Call button.png";
 
 function scrollToElement(id, padding = 0) {
     const element = document.getElementById(id);
@@ -53,36 +54,29 @@ const FreshNavbar = () => {
             <nav className="fresh-nav">
                 <div className={menuOpen ? 'fresh-menu fresh-show-menu' : 'fresh-menu'}>
                     <a href="/Home">Home</a>
-                    {/* Countries Dropdown */}
-                    <a href = "/Countries">Countries
-                    {/* <a href="/Countries" className="fresh-dropdown"> */}
-                        {/* <a  className="dropdown-link">Countries</a>
-                        <a className="fresh-dropdown-content">
-                            <a href="/UK">United Kingdom</a>
-                            <a href="/Canada">Canada</a>
-                            <a href="/Latvia">Latvia</a>
-                            <a href="/Lithuania">Lithuania</a>
-                            <a href="/France">France</a>
-                            <a href="/Sweden">Sweden</a>
-                            <a href="/Finland">Finland</a>
-                            <a href="/Germany">Germany</a>
-                        </a> */}
-                    </a>
-
-
+                    <a href = "/Countries">Countries</a>
                     <a href="/Services">Services</a>
                     <a href="#AboutUs" onClick={handleAboutUsClick}>About Us</a>
                     <a href="/ContactUs">Contact Us</a>
                 </div>
-                {/* Mobile Menu Toggle Button */}
+            {/* Mobile Menu Toggle Button */}
                 <div className="fresh-menu-toggle" onClick={handleMenuToggle}>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </nav>
+            <div className="social-icons">
+        <a href="https://wa.link/10di5m">
+          <img src={whatsappIcon} alt="WhatsApp" />
+        </a>
+        <a href="tel:7593969629">
+          <img src={callIcon} alt="Caller" />
+        </a>
+      </div>
         </header>
     );
 };
 
 export default FreshNavbar;
+

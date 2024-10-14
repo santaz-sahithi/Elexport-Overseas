@@ -1,0 +1,135 @@
+.Australia_universities{
+    background: linear-gradient(180deg, rgb(227, 244, 241) 0%, rgba(12, 84, 72, 1) 100%);;
+    height: fit-content;
+    z-index: 0;
+    position: relative;
+    padding-bottom: 3vh;
+}
+
+.Australia_universities h1{
+    margin-top: 0;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3vw;
+    color: #0C5448;
+    text-shadow: 0 0 3px #CFB248;
+}
+
+.Australia_uni_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    z-index: 1;
+    padding-bottom:5vw;
+}
+
+.werty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin:  5vw 10vw 0 10vw;
+    width: 80%;
+}
+
+.Australia_uni_images img{
+    width: 18vw;
+    height: 23vw;
+    overflow: hidden;
+    background-size: 100%;
+    border-radius: 1vw;
+    margin: 0px 2vw;
+}
+
+.Australia_uni_name1,.Australia_uni_name2,.Australia_uni_name3,.Australia_uni_name4,.Australia_uni_name5,.Australia_uni_name6,.Australia_uni_name7,.Australia_uni_name8{
+    white-space: nowrap;
+    width: 21vw;
+    height: 3.5vh;
+    color:white;
+    position: absolute;
+    margin-top: 22vw;
+    margin-left: 10vw;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 0.25vw 1.5vw ;
+}
+
+.Australia_uni_name1{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.Australia_uni_name2{
+    background: #012069c9;    
+}
+
+.Australia_uni_name3{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.Australia_uni_name4{
+    background: #012069c9;    
+}
+
+.Australia_uni_name5{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.Australia_uni_name6{
+    background: #012069c9;    
+}
+
+.Australia_uni_name7{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.Australia_uni_name8{
+    background: #012069c9;    
+}
+
+@media only screen and (min-width:550px) and (max-width:800px) {
+
+    .Australia_uni_images{
+        padding-bottom: 10vw;
+    }
+
+    .Australia_uni_images img{
+        width: 25vw;
+        height: 30vw;        
+    }
+
+    .Australia_uni_name1,.Australia_uni_name2,.Australia_uni_name3,.Australia_uni_name4,.Australia_uni_name5,.Australia_uni_name6,.Australia_uni_name7,.Australia_uni_name8{
+        margin-top: 29vw;
+        font-size: 2.2vw;
+        width: 25vw;
+        height: 3.5vh;
+    }
+
+    .Australia_universities h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:550px) {
+    
+    .Australia_universities h1{
+        font-size: 1.8rem;
+        padding-top: 2vh;
+    }
+
+    .Australia_uni_images{
+        padding-bottom: 10vw;
+    }
+
+    .Australia_uni_images img{
+        width: 30vh;
+        height: 35vh;        
+    }
+
+    .Australia_uni_name1,.Australia_uni_name2,.Australia_uni_name3,.Australia_uni_name4,.Australia_uni_name5,.Australia_uni_name6,.Australia_uni_name7,.Australia_uni_name8{
+        margin-top: 34vh;
+        margin-left: 20vw;
+        font-size: 1rem;
+        width: 25vh;
+        height: 3.2vh;
+    }
+
+}

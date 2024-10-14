@@ -61,7 +61,7 @@
   }
   .country_div{
     width: 100%;
-    margin: 2vw 2vw 0vw 2vw;
+    margin: 0vw 2vw 0vw 2vw;
     justify-content: center;
     align-items: center;
   }
@@ -97,7 +97,7 @@
   }
   .country_div{
     width: 100%;
-    margin: 2vw 2vw 0vw 2vw;
+    margin: 0vw 2vw 0vw 2vw;
     justify-content: center;
     align-items: center;
   }

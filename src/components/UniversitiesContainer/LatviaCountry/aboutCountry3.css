@@ -27,7 +27,8 @@
     width: 25vw;
     /* height: 50px;  */
     color: white;
-    padding:  0 1vw;
+    padding: 0 1vw;
+    margin: 10px 0;
     border-radius: 10px; 
     margin-bottom: 20px;
 }
@@ -35,17 +36,15 @@
 .Lat-child1,.Lat-child2,.Lat-child3,.Lat-child4,.Lat-child5 {
     position: relative;
     border-radius: 50px;
-    height:  5vw;   
+    height:  4bh;   
     margin: 2vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Lat-child1 {
     background:  #b11212;    
-    left: -5vw;   
-    
+    left: -5vw;       
 }
-
 
 .Lat-child2 {
     background: black;    
@@ -76,17 +75,25 @@
     .rel-text-Lat p{
         font-size: 0.8rem;
         width: 35vw;
+        margin: 8px 0;
     }
 }
 
 @media only screen and (min-width:590px) and (max-width: 700px) {
+    .why-rel-country-container{
+        flex-direction: row;
+        height: fit-content;
+    }
+
     .Lat-child1,.Lat-child2,.Lat-child3,.Lat-child4,.Lat-child5 {
-        height: 5vh;
+        height: 6vh;
     }
 
     .rel-text-Lat p{
         font-size: 0.7rem;
         padding: 1.5vw;
+        margin: 4px 6px;
+        padding: 2px;
     }
 
 
@@ -116,18 +123,24 @@
     .rel-text-Lat p{
         width: 65vw;
         font-size: 1rem;
-        padding: 15px;
+        padding: 0 15px;
     }
     
 }
 
 @media screen and (max-width:450px) {
     .Lat-child1,.Lat-child2,.Lat-child3,.Lat-child4,.Lat-child5 {
-        height: 10vh;
+        height: fit-content;
         width: 85vw;
     }
     .why-rel-country-container-flag img{
         width: 60vw;
         height: 60vw;
+    }
+    .rel-text-Lat p{
+        width: 65vw;
+        font-size: 1rem;
+        padding: 0 15px;
+        margin: 5px 0;
     }
 }

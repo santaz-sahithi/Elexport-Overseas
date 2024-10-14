@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   CountryHome,
   PopCourses,
 } from "../../components/UniversitiesContainer";
 import FinlandCountry from "../../components/UniversitiesContainer/FinlandCountry/FinlandCountry.jsx";
 import FinlandUniversities from "../../components/UniversitiesContainer/FinlandUniversities/FinlandUniversities.jsx";
-import FinlandImg from "../../assests/Finland-background-img.jpeg";
+import FinlandImg from "../../assests/Finland_Hero.jpg";
 import FinlandFlag from "../../assests/Finland-flag-img.jpeg";
 import Fin_uni_1 from "../../assests/Fin_uni-1.jpeg";
 import Fin_uni_2 from "../../assests/Fin_uni-2.jpeg";
@@ -16,6 +16,9 @@ import Fin_uni_6 from "../../assests/Fin_uni-6.jpeg";
 import Fin_uni_7 from "../../assests/Fin_uni-7.jpeg";
 
 const FinlandUni = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <div>
       <CountryHome

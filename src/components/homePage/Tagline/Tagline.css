@@ -1,5 +1,9 @@
+.bg-color-tagline{
+  background-color: #eff5f8
+}
+
 .tagline-container {
-    margin: 12vh 5vw 5vh 5vw; /* Changed to vw for responsive margins */
+    margin: 5vh 5vw 5vh 5vw; /* Changed to vw for responsive margins */
     height: fit-content;
     display: flex;
     justify-content: center;

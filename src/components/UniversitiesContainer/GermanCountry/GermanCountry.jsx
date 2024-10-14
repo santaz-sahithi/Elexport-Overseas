@@ -1,6 +1,6 @@
 // rsfce
 import React from 'react';
-import './aboutCountry.css';
+import './GermanCountry.css';
 
 function AboutCountry(props) {
   const rel_country_flag = props.rel_country_flag;

@@ -6,7 +6,6 @@ const Services = () => {
   return (
     <div>
       <Service />
-      <Footer />
     </div>
   )
 }

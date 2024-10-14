@@ -4,6 +4,7 @@ import './QA.css'; // Import the CSS file
 
 const TypewriterEffect = () => {
   return (
+    <div className='bg-color-qa'>
     <div className="container">
       <h3 className="question">Question - Do you know why people choose to study abroad?</h3>
       <TypeAnimation
@@ -17,6 +18,7 @@ const TypewriterEffect = () => {
         className="typewriter-text"
         repeat={999}
       />
+    </div>
     </div>
   );
 };

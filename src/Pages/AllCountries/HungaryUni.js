@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   CountryHome,
   PopCourses,
@@ -15,6 +15,9 @@ import Hun_uni_5 from "../../assests/Hun_uni-5.jpeg";
 import Hun_uni_6 from "../../assests/Hun_uni-6.jpeg";
 
 const HungaryUni = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <div>
       <CountryHome

@@ -1,4 +1,4 @@
-.pop_universities{
+.Ireland_universities{
     background: linear-gradient(180deg, rgb(227, 244, 241) 0%, rgba(12, 84, 72, 1) 100%);;
     height: fit-content;
     z-index: 0;
@@ -6,7 +6,7 @@
     padding-bottom: 3vh;
 }
 
-.pop_universities h1{
+.Ireland_universities h1{
     margin-top: 0;
     font-size: 2.5rem;
     text-align: center;
@@ -15,7 +15,7 @@
     text-shadow: 0 0 3px #CFB248;
 }
 
-.pop_uni_images {
+.Ireland_uni_images {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -31,7 +31,7 @@
     width: 80%;
 }
 
-.pop_uni_images img{
+.Ireland_uni_images img{
     width: 18vw;
     height: 23vw;
     overflow: hidden;
@@ -40,81 +40,81 @@
     margin: 0px 2vw;
 }
 
-.pop_uni_name1,.pop_uni_name2,.pop_uni_name3,.pop_uni_name4,.pop_uni_name5{
+.Ireland_uni_name1,.Ireland_uni_name2,.Ireland_uni_name3,.Ireland_uni_name4,.Ireland_uni_name5{
     white-space: nowrap;
     width: 19vw;
-    height: 2vh;
+    height: 3vh;
     color:white;
     position: absolute;
     margin-top: 22vw;
     margin-left: 10vw;
-    font-size: 1.7vw;
+    font-size: 16px;
     border-radius: 20px;
-    padding: 0.25vw 1.5vw ;
+    padding: 0.25vw 1.5vw;
 }
 
-.pop_uni_name1{
+.Ireland_uni_name1{
     background-color: rgba(243, 174, 39,70%);
 }
 
-.pop_uni_name2{
+.Ireland_uni_name2{
     background-color: rgba(0, 0, 0, 50%);
 }
 
-.pop_uni_name3{
+.Ireland_uni_name3{
     background-color: rgba(177, 18, 18, 80%);
 }
 
-.pop_uni_name4{
+.Ireland_uni_name4{
     background-color: rgba(177, 18, 18, 80%);
 }
 
-.pop_uni_name5{
+.Ireland_uni_name5{
     background-color: rgba(243, 174, 39,70%);
 }
 
 @media only screen and (min-width:550px) and (max-width:800px) {
 
-    .pop_uni_images img{
+    .Ireland_uni_images img{
         width: 25vw;
         height: 30vw;        
     }
 
-    .pop_uni_name1,.pop_uni_name2,.pop_uni_name3,.pop_uni_name4,.pop_uni_name5{
+    .Ireland_uni_name1,.Ireland_uni_name2,.Ireland_uni_name3,.Ireland_uni_name4,.Ireland_uni_name5{
         margin-top: 29vw;
-        font-size: 2.3vw;
+        font-size: 16px;
         width: 27vw;
-        height: 2.5vh;
+        height: 3vh;
         margin-left: 15vw;
     }
 
-    .pop_universities h1{
+    .Ireland_universities h1{
         font-size: 2rem;
     }
 }
 
 @media only screen and (min-width:0px) and (max-width:550px) {
     
-    .pop_universities h1{
+    .Ireland_universities h1{
         font-size: 1.8rem;
         padding-top: 2vh;
     }
 
-    .pop_uni_images{
+    .Ireland_uni_images{
         padding-bottom: 10vw;      
     }
 
-    .pop_uni_images img{
+    .Ireland_uni_images img{
         width: 30vh;
         height: 35vh;  
     }
 
-    .pop_uni_name1,.pop_uni_name2,.pop_uni_name3,.pop_uni_name4,.pop_uni_name5{
+    .Ireland_uni_name1,.Ireland_uni_name2,.Ireland_uni_name3,.Ireland_uni_name4,.Ireland_uni_name5{
         margin-top: 34vh;
         margin-left: 20vw;
-        font-size: 1.2rem;
+        font-size: 16px;
         width: 27vh;
-        height: 2vh;
+        height: 3vh;
     }
 
 }

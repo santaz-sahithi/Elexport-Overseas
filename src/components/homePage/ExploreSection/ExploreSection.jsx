@@ -4,8 +4,10 @@ import "swiper/swiper-bundle.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./ExploreSection.css";
+import { Link, replace } from "react-router-dom";
+
+
 
 import Australiaicon from "../../../assests/Australia.jpg";
 import USAicon from "../../../assests/usa.jpg";
@@ -19,10 +21,11 @@ import Swedenicon from "../../../assests/SwedenExplore.jpg";
 import Finlandicon from "../../../assests/FinlandExplore.jpg";
 import Irelandicon from "../../../assests/IrelandExplore.jpg";
 import Maltaicon from "../../../assests/MaltaExplore.jpg";
-// import Sloveniaicon from "../../../assests/"
+import Sloveniaicon from "../../../assests/SloveniaExplore.jpg";
+import Hungaryicon from "../../../assests/HungaryExplore.jpg";
+import Austriaicon from "../../../assests/AustriaExplore.jpg";
 
 import { Keyboard, Pagination, Navigation } from "swiper/modules";
-
 
 const ExploreSection = () => {
   const cards = [
@@ -38,32 +41,31 @@ const ExploreSection = () => {
     { imgSrc: Finlandicon, name: "Finland" },
     { imgSrc: Irelandicon, name: "Ireland" },
     { imgSrc: Maltaicon, name: "Malta" },
-    // { imgSrc: Sloveniaicon, name: "Slovenia" },
-    // { imgSrc: Austriaicon, name: "Austria" },
-    // { imgSrc: Hungaryicon, name: "Hungary" },
+    { imgSrc: Sloveniaicon, name: "Slovenia" },
+    { imgSrc: Austriaicon, name: "Austria" },
+    { imgSrc: Hungaryicon, name: "Hungary" },
   ];
 
   return (
     <>
-    <div className="explore-heading">
-      <h1>Explore the Best of the World</h1>
-    </div>
+      <div className="explore-heading">
+        <h1>Explore the Best of the World</h1>
+      </div>
       <Swiper
-      
         slidesPerView={1}
         pagination={{
           clickable: true,
         }}
         breakpoints={{
           500: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           700: {
             slidesPerView: 3,
             spaceBetween: 30,
           },
-          1000:{
+          1000: {
             slidesPerView: 3,
             spaceBetween: 30,
           },
@@ -77,20 +79,19 @@ const ExploreSection = () => {
         }}
         navigation={true}
         modules={[Keyboard, Pagination, Navigation]}
-        loop={true} // Disable infinite looping
-        resistance={true} // Enable resistance at the last slide
-        resistanceRatio={0.85} // Disables movement after the last slide is reached
+        loop={true}
+        loopFillGroupWithBlank={true}
+        resistance={true}
+        resistanceRatio={0.85}
         className="mySwiper1"
       >
         {cards.map((card, index) => (
           <SwiperSlide className="swiper-slide-1" key={index}>
-            <a href="">
+            <a href={`/${card.name.replace(/\s+/g, '')}Uni`}>
               <img src={card.imgSrc} alt={card.name} />
               <h3 className="card1">{card.name}</h3>
             </a>
           </SwiperSlide>
-
-          
         ))}
       </Swiper>
     </>

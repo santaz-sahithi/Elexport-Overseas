@@ -1,6 +1,6 @@
 import React from "react";
 import "./OurVision.css"; // Make sure this CSS file is created
-import ThinkMan from "../../../assests/ThinkMan.png";
+import ThinkMan from "../../../assests/OurVision.jpg";
 
 const OurVision = () => {
   return (

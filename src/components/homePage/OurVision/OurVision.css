@@ -31,6 +31,7 @@
   
   .our-vision-image img{
     width: 85%;
+    border:2px solid #0c5448;
   }
   
   .our-vision-content{

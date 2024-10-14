@@ -1,0 +1,175 @@
+.why-rel-country-container{
+    background: #0C5448;
+    display: flex;
+    height: 50vw;
+    align-items: center;
+    justify-content:center;
+}
+
+.why-rel-country-container-flag{
+    padding: 2% 2% 2% 2%;
+    z-index: 0;
+    
+}
+
+.why-rel-country-container-flag img{
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 2px solid #F3AE27;   
+}
+
+.rel-text-Lithuania{
+    padding-left: 3%;
+    width: fit-content;
+}
+
+
+.rel-text-Lithuania p{
+    font-size: 1.1vw;
+    width: 31vw; 
+    color: white;
+    margin: 2%;
+    /* padding: 3%; */
+    line-height: 1.5;
+}
+
+.Lithuania-child1,.Lithuania-child2,.Lithuania-child3,.Lithuania-child4,.Lithuania-child5 {
+    position: relative;
+    border-radius: 50px;
+    height:  5vw;
+    margin: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Lithuania-child1 {
+    background: linear-gradient(180deg, rgba(255, 184, 28) 0%, rgba(4, 106, 56) 50%,rgba(190,58,52)100%);
+    left: -2.5vw;   
+}
+
+.Lithuania-child1 p {
+    color: white !important;
+}
+
+.Lithuania-child2 {
+    background:#EFBF04;    
+    left: -1vw;
+}
+
+.Lithuania-child2 p {
+    color: white !important;
+}
+
+.Lithuania-child3 {
+    background: rgb(255, 255, 255);
+    left: -0vw;
+}
+
+.Lithuania-child3 p {
+    color: black !important;
+}
+
+.Lithuania-child4 {
+    background: #b11212;
+    left: -1vw;
+}
+
+.Lithuania-child5 {
+    background: linear-gradient(0deg, rgba(255, 184, 28) 0%, rgba(4, 106, 56) 50%,rgba(190,58,52)100%);
+    left: -2.5vw;
+
+}
+
+.Lithuania-child5 p {
+    color: white !important;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .Lithuania-child1,.Lithuania-child2,.Lithuania-child3,.Lithuania-child4,.Lithuania-child5 {
+        height: 9vh;
+        width: 45vw;
+    }
+
+    .rel-text-Lithuania p{
+        margin: 1% 2%;
+        font-size: 15px;
+        width: 43vw;
+    }
+}
+
+@media only screen and (min-width:590px) and (max-width: 700px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .Lithuania-child1,.Lithuania-child2,.Lithuania-child3,.Lithuania-child4,.Lithuania-child5 {
+        height: fit-content;
+        left: 0;
+        width: 60vw;
+    }
+
+    .rel-text-Lithuania p{
+        margin: 1% 5%;
+        font-size: 16px;
+        width: 55vw;
+    }
+
+
+}
+
+@media only screen and (max-width:590px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .why-rel-country-container-flag{
+        margin-top: 20px;
+    }
+
+    .why-rel-country-container-flag img{
+        height: 55vw;
+        width: 55vw;
+    }
+
+    .Lithuania-child1,.Lithuania-child2,.Lithuania-child3,.Lithuania-child4,.Lithuania-child5 {
+        width: 75vw;
+        height: 12vw;
+        margin: 3vw;
+        left: 0;
+    }
+
+    .rel-text-Lithuania p{
+        width: 70vw;
+        font-size: 16px;
+        margin-left: 10px;
+        margin: 1% 5%;
+    }   
+}
+
+@media screen and (max-width:500px) {
+    /* .Lithuania-child1,.Lithuania-child2,.Lithuania-child3,.Lithuania-child4,.Lithuania-child5 {
+        height: 10vh;
+        width: 85vw;
+    } */
+    .why-rel-country-container-flag img{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .Lithuania-child1,.Lithuania-child2,.Lithuania-child3,.Lithuania-child4,.Lithuania-child5 {
+        width: 80vw;
+        height: fit-content;
+        margin: 3vw;
+        left: 0;
+    }
+
+    .rel-text-Lithuania p{
+        width: 70vw;
+        font-size: 16px;
+        padding: 2.5vw;
+        margin-left: 10px;
+    }
+}

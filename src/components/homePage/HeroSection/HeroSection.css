@@ -3,6 +3,7 @@
     color: white;
     background-size: cover; 
     overflow: hidden;
+    height: fit-content;
 }
 
 .hero-content {
@@ -13,18 +14,20 @@
     height: 24vw;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
     font-family: 'Amiri', serif;
-    border: 2px solid #1FAF38; /* Gold border */
+    border: 2px solid #1FAF38; 
 }
 
 .hero-section img{
     width: 100%;
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .soft-tint {
     margin: 0;
     position: absolute;
-    height: 23.7vw;
+    height: 24vw;
     width: 50vw;
     background-color: black;
     mix-blend-mode: soft-light;
@@ -71,22 +74,7 @@
     transition: background-color 0.3s ease;
 }
 
-/* Social Icons */
-.social-icons {
-    position: fixed;
-    bottom: 2rem;
-    right: 20px;
-    z-index: 5;
-}
 
-.social-icons img {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    width: 70px;
-    height: 70px;
-    margin: 20px 0;
-}
 
 /* Responsive styles */
 @media (max-width:1150px) {
@@ -110,7 +98,7 @@
     }
 
     .soft-tint {
-        height: 21.5vw;
+        height: 22vw;
     }
     .hero-content h1 {
         font-size: 5vw; /* Scaled down font-size */

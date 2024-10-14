@@ -1,0 +1,138 @@
+.France_universities{
+    background: linear-gradient(180deg, rgb(227, 244, 241) 0%, rgba(12, 84, 72, 1) 100%);;
+    height: fit-content;
+    z-index: 0;
+    position: relative;
+    padding-bottom: 3vh;
+}
+
+.France_universities h1{
+    margin-top: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 3vw;
+    color: #0C5448;
+    text-shadow: 0 0 3px #CFB248;
+}
+
+.France_uni_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    z-index: 1;
+    padding-bottom:5vw;
+}
+
+.werty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin:  5vw 10vw 0 10vw;
+    width: 80%;
+}
+
+.France_uni_images img{
+    width: 18vw;
+    height: 23vw;
+    overflow: hidden;
+    background-size: 100%;
+    border-radius: 1vw;
+    margin: 0px 2vw;
+}
+
+.France_uni_name1,.France_uni_name2,.France_uni_name3,.France_uni_name4,.France_uni_name5,.France_uni_name6,.France_uni_name7,.France_uni_name8,.France_uni_name9{
+    white-space: nowrap;
+    width: 19vw;
+    height: 3vh;
+    color:white;
+    position: absolute;
+    margin-top: 22vw;
+    margin-left: 11vw;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 0.25vw 1.5vw ;
+}
+
+.France_uni_name1{
+    background-color: rgba(243, 174, 39,70%);
+}
+
+.France_uni_name2{
+    background-color: rgba(201, 131, 131, 0.8);
+}
+
+.France_uni_name3{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.France_uni_name4{
+    background-color: rgba(230, 237, 42, 0.8);
+}
+
+.France_uni_name5{
+    background-color: rgba(109, 158, 248, 0.7);
+}
+
+.France_uni_name6{
+    background-color: rgba(159, 228, 93, 0.7);
+}
+
+.France_uni_name7{
+    background-color: rgba(211, 134, 179, 0.8);
+}
+
+.France_uni_name8{
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.France_uni_name9{
+    background-color: rgba(180, 135, 102, 0.8);
+}
+
+
+
+@media only screen and (min-width:550px) and (max-width:800px) {
+
+    .France_uni_images img{
+        width: 25vw;
+        height: 30vw;        
+    }
+
+    .France_uni_name1,.France_uni_name2,.France_uni_name3,.France_uni_name4,.France_uni_name5,.France_uni_name6,.France_uni_name7,.France_uni_name8,.France_uni_name9{
+        margin-top: 29vw;
+        font-size: 16px;
+        width: 27vw;
+        height: 3vh;
+        margin-left: 15vw;
+    }
+
+    .France_universities h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:550px) {
+    
+    .France_universities h1{
+        font-size: 1.8rem;
+        padding-top: 2vh;
+    }
+
+    .France_uni_images{
+        padding-bottom: 10vw;      
+    }
+
+    .France_uni_images img{
+        width: 30vh;
+        height: 35vh;  
+    }
+
+    .France_uni_name1,.France_uni_name2,.France_uni_name3,.France_uni_name4,.France_uni_name5,.France_uni_name6,.France_uni_name7,.France_uni_name8,.France_uni_name9{
+        margin-top: 34vh;
+        margin-left: 20vw;
+        font-size: 16px;
+        width: 27vh;
+        height: 3vh;
+    }
+
+}

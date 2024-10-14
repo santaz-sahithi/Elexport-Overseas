@@ -29,7 +29,7 @@
     font-size: 1.1vw;
     width: 31vw; 
     color: white;
-    margin: auto auto;
+    margin: 6px auto;
     padding: 0 4% ;
     line-height: 1.5;
     text-align: left;
@@ -94,6 +94,7 @@
     .rel-text-Hun p{
         font-size: 14px;
         width: 35vw;
+        margin: 4px 0;
     }
 }
 
@@ -109,7 +110,8 @@
 
     .rel-text-Hun p{
         font-size: 0.7rem;
-        padding: 1% 1.5vw;
+        padding: 0% 1.5vw;
+        margin: 3px 0;
     }
 
 }
@@ -139,8 +141,8 @@
     .rel-text-Hun p{
         width: 70vw;
         font-size: 16px;
-        padding: 1.2vw;
-        margin-left: 10px;
+        /* padding: 1.2vw; */
+        margin: 3px 3px;
     }   
 }
 

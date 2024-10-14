@@ -1,0 +1,176 @@
+.why-rel-country-container{
+    background: #0C5448;
+    display: flex;
+    height: 50vw;
+    align-items: center;
+    justify-content:center;
+}
+
+.why-rel-country-container-flag{
+    padding: 2% 2% 2% 2%;
+    z-index: 0;
+    
+}
+
+.why-rel-country-container-flag img{
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 2px solid #F3AE27;   
+}
+
+.rel-text-Austria{
+    padding-left: 4%;
+    width: fit-content;
+}
+
+
+.rel-text-Austria p{
+    font-size: 15px;
+    width: 32vw; 
+    color: white;
+    margin: 2% 4%;
+    line-height: 1.3;
+}
+
+.Austria-child1,.Austria-child2,.Austria-child3,.Austria-child4,.Austria-child5 {
+    position: relative;
+    border-radius: 50px;
+    height:  10vh;
+    margin: 1vw;
+    width: 35vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Austria-child1 {
+    background: linear-gradient(360deg, #EF3340 0%, #FFFFFF 50%, #EF3340 100%);
+    left: -2.5vw;   
+}
+
+.Austria-child1 p {
+    color: black !important;
+}
+
+.Austria-child2 {
+    background: #EF3340;    
+    left: -1vw;
+}
+
+.Austria-child2 p {
+    color: white !important;
+}
+
+.Austria-child3 {
+    background: #FFFFFF;
+    left: -0vw;
+}
+
+.Austria-child3 p {
+    color: black !important;
+}
+
+.Austria-child4 {
+    background: #EF3340;
+    left: -1vw;
+}
+
+.Austria-child5 {
+    background: linear-gradient(360deg, #EF3340 0%, #FFFFFF 50%, #EF3340 100%);
+    left: -2.5vw;
+
+}
+
+.Austria-child5 p {
+    color: black !important;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .Austria-child1,.Austria-child2,.Austria-child3,.Austria-child4,.Austria-child5 {
+        height: 6vw;
+        width: 40vw;
+    }
+
+    .rel-text-Austria p{
+        margin: 2%;
+        font-size: 1.5vw;
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-width:590px) and (max-width: 700px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+
+    .Austria-child1,.Austria-child2,.Austria-child3,.Austria-child4,.Austria-child5 {
+        height: 9vh;
+        left: 0;
+        width: 60vw;
+    }
+
+    .rel-text-Austria p{
+        margin: 2% 4%;
+        font-size: 16px;
+        width: 55vw;
+    }
+
+
+}
+
+@media only screen and (max-width:590px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .why-rel-country-container-flag{
+        margin-top: 20px;
+    }
+
+    .why-rel-country-container-flag img{
+        height: 55vw;
+        width: 55vw;
+    }
+
+    .Austria-child1,.Austria-child2,.Austria-child3,.Austria-child4,.Austria-child5 {
+        width: 75vw;
+        height: 12vw;
+        margin: 3vw;
+        left: 0;
+    }
+
+    .rel-text-Austria p{
+        width: 70vw;
+        font-size: 16px;
+        margin-left: 10px;
+    }   
+}
+
+@media screen and (max-width:500px) {
+    .Austria-child1,.Austria-child2,.Austria-child3,.Austria-child4,.Austria-child5 {
+        height: 10vh;
+        width: 85vw;
+    }
+    .why-rel-country-container-flag img{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .Austria-child1,.Austria-child2,.Austria-child3,.Austria-child4,.Austria-child5 {
+        width: 80vw;
+        height: fit-content;
+        margin: 3vw;
+        left: 0;
+    }
+
+    .rel-text-Austria p{
+        margin: 1% 4%;
+        width: 70vw;
+        font-size: 16px;
+        padding: 2.5vw;
+        margin-left: 10px;
+    }
+}

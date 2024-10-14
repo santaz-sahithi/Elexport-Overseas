@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   CountryHome,
   PopCourses,
@@ -13,6 +13,9 @@ import uni_3 from "../../assests/UnivOfPrimorska.png";
 import uni_4 from "../../assests/UnivOfNovaGorica.jpg";
 
 const SloveniamericaUni = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <div>
       <CountryHome
@@ -22,14 +25,14 @@ const SloveniamericaUni = () => {
       />
       <SloveniaCountry rel_country_flag={SloveniaFlag} here_we_go_again="" />
       <SloveniaUniversities
-        pop_uni_img1={uni_1}
-        pop_uni1="University of Ljubljana"
-        pop_uni_img2={uni_2}
-        pop_uni2="University of Maribor"
-        pop_uni_img3={uni_3}
-        pop_uni3="University of Primorska"
-        pop_uni_img4={uni_4}
-        pop_uni4="University of Nova Gorica"
+        Slovenia_uni_img1={uni_1}
+        Slovenia_uni1="University of Ljubljana"
+        Slovenia_uni_img2={uni_2}
+        Slovenia_uni2="University of Maribor"
+        Slovenia_uni_img3={uni_3}
+        Slovenia_uni3="University of Primorska"
+        Slovenia_uni_img4={uni_4}
+        Slovenia_uni4="University of Nova Gorica"
       />
       <PopCourses />
     </div>

@@ -1,7 +1,5 @@
 import React from "react";
 import "./HeroSection.css";
-import whatsappIcon from "../../../assests/whatsapp-icon.png";
-import callIcon from "../../../assests/Call button.png";
 import UniversityImage from "../../../assests/UniversityImage.png";
 
 const HeroSection = () => {
@@ -16,15 +14,6 @@ const HeroSection = () => {
           <div className="explore-container">
             <div className="explore-box">EXPLORE 20000+ COURSES</div>
           </div>        
-      </div>
-
-      <div className="social-icons">
-        <a href="https://wa.link/10di5m">
-          <img src={whatsappIcon} alt="WhatsApp" />
-        </a>
-        <a href="tel:7593969629">
-          <img src={callIcon} alt="Caller" />
-        </a>
       </div>
     </div>
   );
