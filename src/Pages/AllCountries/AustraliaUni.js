@@ -5,7 +5,7 @@ import {
 } from "../../components/UniversitiesContainer";
 import AustraliaCountry from '../../components/UniversitiesContainer/AustraliaCountry/AustraliaCountry';
 import AustraliaUniversities from "../../components/UniversitiesContainer/AustraliaUniversities/AustralianUniversities";
-import AustraliaImg from "../../assests/AustraliaHeroImg.jpg";
+import AustraliaImg from "../../assests/Australia_bg_img.jpg";
 import AustraliaFlag from "../../assests/AustralianFlagImg.jpg";
 import uni_1 from "../../assests/UnivOfMelbourne.jpg";
 import uni_2 from "../../assests/UnivOfSydney.avif";

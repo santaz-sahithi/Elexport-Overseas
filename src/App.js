@@ -7,7 +7,7 @@ import Services from './Pages/services.js';
 import Footer from './components/footer/Footer.jsx';
 import ContactUs from './components/contactUs/Contactus.js'
 import Home from './Pages/HomePage.js';
-import FreshNavbar from './components/navbar/Navbar.js'; 
+import Navbar from './components/navbar/Navbar.js'; 
 import IrelandUni from './Pages/AllCountries/IrelandUni.js'; //Done 1
 import FinlandUni from './Pages/AllCountries/FinlandUni.js'; //Done 2
 import SloveniamericaUni from './Pages/AllCountries/SloveniaUni.js'; //Done 3
@@ -16,12 +16,13 @@ import AustraliaUni from './Pages/AllCountries/AustraliaUni.js'; //Done 5
 import MaltaUni from './Pages/AllCountries/MaltaUni.js'; //Done 6
 import SwedenUni from './Pages/AllCountries/SwedenUni.js';  //Done 7
 import HungaryUni from './Pages/AllCountries/HungaryUni.js'; //Done 8
-import CanadaUni from './Pages/AllCountries/CanadaUni.js'; // fixing the 10,11,12 universities is left 9
+import CanadaUni from './Pages/AllCountries/CanadaUni.js'; // Done 9
 import LatviaUni from './Pages/AllCountries/LatviaUni.js'; //Done 10
 import FranceUni from './Pages/AllCountries/FranceUni.js'; //Done 11
 import LithuaniaUni from './Pages/AllCountries/LithuaniaUni.js'; //Done 12
 import AustriaUni from './Pages/AllCountries/AustriaUni.js'; //Done 13
-import GermanUni from './Pages/AllCountries/GermanUni.js'; //Done 14
+import GermanUni from './Pages/AllCountries/GermanUni.js'; //Done 14 need to add more
+import UKUni from './Pages/AllCountries/UKUni.js'; //Done 15
 
 function App() {
   useEffect(() => {
@@ -31,7 +32,7 @@ function App() {
   return (
     <div className = "App">
       <BrowserRouter>
-      <FreshNavbar />
+      <Navbar />
         <Routes>
           <Route index element={<Home />} />
           <Route path = '/Home' element = {<Home />}/>
@@ -52,7 +53,7 @@ function App() {
           <Route path = '/LithuaniaUni' element = {<LithuaniaUni />}/>
           <Route path = '/AustriaUni' element = {<AustriaUni />}/>
           <Route path = '/GermanUni' element={<GermanUni />}/> 
-
+          <Route path = "/UKUni" element = {<UKUni />}/>
         </Routes>
       </BrowserRouter>
       <Footer/>

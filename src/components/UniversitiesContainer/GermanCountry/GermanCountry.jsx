@@ -12,19 +12,20 @@ function AboutCountry(props) {
       </div>
       <div className="rel-text-Ger">
         <div className='Ger-child1'>
-          <p>High-quality education system and the availability of a wide range of programs...</p>
+          <p>Germany offers world-class universities with a wide range of English-taught programs.</p>
         </div>
         <div className='Ger-child2'>
-          <p>High-quality education system and the availability of a wide range of programs...</p>
+          <p>Affordable or low tuition fees make Germany a cost-effective option for higher education.</p>
         </div>
         <div className='Ger-child3'>
-          <p>High-quality education system and the availability of a wide range of programs...</p>
+          <p>Excellent career prospects in Germany's booming industries like engineering, automobiles.</p>
         </div>
         <div className='Ger-child4'>
-          <p>High-quality education system and the availability of a wide range of programs...</p>
+          <p>Strong focus on cutting-edge research and collaboration with renowned experts.
+          </p>
         </div>
         <div className='Ger-child5'>
-          <p>High-quality education system and the availability of a wide range of programs...</p>
+          <p>Germany’s multicultural society provides a welcoming environment for international students.</p>
         </div>
       </div>
     </div>

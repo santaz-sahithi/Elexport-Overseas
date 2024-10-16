@@ -12,46 +12,46 @@ function Footer() {
             <div className="sb-footer-links">
                 <div className="sb-footer-links-div">
                     <h4>Courses</h4>
-                    <a href="/employer">
+                    <a className='f_anchor' href="/employer">
                         <p>MBA Abroad</p>
                     </a>
-                    <a href="/healthplan">
+                    <a className='f_anchor' href="/healthplan">
                         <p>MEM Abroad</p>
                     </a>
-                    <a href="/individual">
+                    <a className='f_anchor' href="/individual">
                         <p>MIM Abroad</p>
                     </a>
-                    <a href="/individual">
+                    <a className='f_anchor' href="/individual">
                         <p>MS in Finance</p>
                     </a>
                 </div>
                 <div className="sb-footer-links-div">
                     <h4>Popular Countries</h4>
-                    <a href="/employer">
+                    <a className='f_anchor' href="/USAUni">
                         <p>United States</p>
                     </a>
-                    <a href="/healthplan">
+                    <a className='f_anchor' href="/UKUni">
                         <p>United Kingdom</p>
                     </a>
-                    <a href="/individual">
+                    <a className='f_anchor' href="/CanadaUni">
                         <p>Canada</p>
                     </a>
-                    <a href="/individual">
+                    <a className='f_anchor' href="/AustraliaUni">
                         <p>Australia</p>
                     </a>
                 </div>
                 <div className="sb-footer-links-div">
                     <h4>Company</h4>
-                    <a href="/employer">
+                    <a className='f_anchor' href="/employer">
                         <p>About Us</p>
                     </a>
-                    <a href="/employer">
+                    <a className='f_anchor' href="/employer">
                         <p>Privacy Policy</p>
                     </a>
-                    <a href="/employer">
+                    <a className='f_anchor' href="/employer">
                         <p>Help Center</p>
                     </a>
-                    <a href="/employer">
+                    <a className='f_anchor' href="/employer">
                         <p>Career</p>
                     </a>
                 </div>
@@ -60,7 +60,7 @@ function Footer() {
                      <p className='address'>
                          2nd Floor, Above Kairali Ford,Kazhakkuttam</p>
                     
-                     <p>&bull; info@euroviewinternational.com</p>
+                     <p>&bull;  info@elexportoverseas.com</p>
                    
                 </div>
                 <div className="sb-footer-links-div">
@@ -81,22 +81,22 @@ function Footer() {
                         <p>@{new Date().getFullYear()} Elex Port All right reserved</p>
                     </div>
                     <div className="sb-footer-below-links">
-                        <a href="/term">
+                        <a className='f_anchor' href="/term">
                             <div>
                                 <p>Term & Conditions</p>
                             </div>
                         </a>
-                        <a href="/privacy">
+                        <a className='f_anchor' href="/privacy">
                             <div>
                                 <p>Privacy</p>
                             </div>
                         </a>
-                        <a href="/security">
+                        <a className='f_anchor' href="/security">
                             <div>
                                 <p>Security</p>
                             </div>
                         </a>
-                        <a href="/cookie">
+                        <a className='f_anchor' href="/cookie">
                             <div>
                                 <p>Cookie Declaration</p>
                             </div>

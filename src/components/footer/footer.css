@@ -30,7 +30,7 @@ background: linear-gradient(0deg, #0F594D, #000000);
     flex-direction: column;
     color: white;
 }
-a{
+.sb-footer-section-padding .f_anchor{
     color:white;
     text-decoration: none;
     font-size: 1rem;

@@ -27,7 +27,7 @@
 
 .rel-text-Ger p{
     font-size: 1.1vw;
-    width: 25vw; 
+    width: 30vw; 
     color: white;
     margin: 1vw 0;
     padding: 0 4%;
@@ -38,6 +38,7 @@
     border-radius: 50px;
     height:  5vw;
     margin: 1vw;
+    width: 35vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

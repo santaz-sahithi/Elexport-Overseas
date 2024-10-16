@@ -47,15 +47,17 @@
     .tagline-box h2 {
       font-size:3vw; /* Reduce font-size for smaller screens */
       width: 60vw; /* Adjust width */
-      margin: auto;
+      /* margin: auto; */
     }
   }
   
   @media (max-width: 768px) {
     .tagline-box h2 {
       font-size: 3.2vw; /* Further reduce font-size */
-      max-height: 5.5vh;
-      margin: auto;
+      margin: 0vh 2vw; /* Changed to vw for responsive margins */
+    }
+    .tagline-container{
+      margin: 3vh 3vw; /* Changed to vw for responsive margins */
     }
   }
   
@@ -65,7 +67,7 @@
     }
 
     .tagline-container{
-      margin: 12vh 5vw 1vh 5vw; /* Changed to vw for responsive margins */
+      margin: 2vh 3vw; /* Changed to vw for responsive margins */
     }
   }
   
