@@ -41,15 +41,15 @@
     margin: 0px 2vw;
 }
 
-.German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5{
+.German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5,.German_uni_name6,.German_uni_name7,.German_uni_name8,.German_uni_name9,.German_uni_name10{
     white-space: nowrap;
-    width: 22vw;
-    height: 2.6vw;
+    width: 20vw;
+    height: 3vh;
     color:white;
     position: absolute;
     margin-top: 22vw;
     margin-left: 10vw;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 20px;
     padding: 0.25vw 1.5vw ;
 }
@@ -73,17 +73,38 @@
 .German_uni_name5{
     background-color: rgba(243, 174, 39,70%);
 }
+.German_uni_name7{
+    background-color: rgba(243, 174, 39,70%);
+}
+
+.German_uni_name6{
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.German_uni_name8{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.German_uni_name10{
+    background-color: rgba(177, 18, 18, 80%);
+}
+
+.German_uni_name9{
+    background-color: rgba(243, 174, 39,70%);
+}
+
+
 
 @media only screen and (max-width:1000px) {
     .werty{
         margin:  5vw 7vw 0 8vw;
         width: 85%;
     }
-    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5{
-        font-size: 17px;
-        height: 3vw;
-        width: 26vw;
-        margin-left: 2vw;
+    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5,.German_uni_name6,.German_uni_name7,.German_uni_name8,.German_uni_name9,.German_uni_name10{
+        font-size: 16px;
+        height: 3vh;
+        width: 20vw;
+        margin-left: 12vw;
     }
 }
 
@@ -94,12 +115,12 @@
         height: 30vw;        
     }
 
-    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5{
+    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5,.German_uni_name6,.German_uni_name7,.German_uni_name8,.German_uni_name9,.German_uni_name10{
         margin-top: 29vw;
         font-size: 16px;
-        width: 35vw;
-        height: 3.5vw;
-        margin-left: 14vw;
+        width: 22vw;
+        height: 3vh;
+        margin-left: 15vw;
     }
 
     .German_universities h1{
@@ -113,7 +134,7 @@
         height: 30vw;        
     }
 
-    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5{
+    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5,.German_uni_name6,.German_uni_name7,.German_uni_name8,.German_uni_name9,.German_uni_name10{
         margin-top: 29vw;
         font-size: 16px;
         width: 36vw;
@@ -135,19 +156,20 @@
     }
 
     .German_uni_images{
-        padding-bottom: 10vw;      
+        padding-bottom: 10vw; 
+        width: 100%;     
     }
 
     .German_uni_images img{
-        width: 30vh;
+        width: 31vh;
         height: 35vh;  
     }
 
-    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5{
+    .German_uni_name1,.German_uni_name2,.German_uni_name3,.German_uni_name4,.German_uni_name5,.German_uni_name6,.German_uni_name7,.German_uni_name8,.German_uni_name9,.German_uni_name10{
         margin-top: 34vh;
-        margin-left: 0vw;
-        font-size: 1.2rem;
-        width: 35vh;
-        height: 3.6vh;
+        margin-left: 15vw;
+        font-size: 16px;
+        width: 30vh;
+        height: 3.5vh;
     }
 }

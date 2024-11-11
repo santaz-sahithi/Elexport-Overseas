@@ -23,7 +23,9 @@ background: linear-gradient(0deg, #0F594D, #000000);
     margin-bottom: 2rem;
 }
 .sb-footer-links-div{
-    width: 200px;
+    padding: 1%;
+    max-width: 200px;
+    min-width: 100px;
     margin: 1rem;
     display: flex;
     justify-content: flex-start;
@@ -62,7 +64,6 @@ background: linear-gradient(0deg, #0F594D, #000000);
 }
  p.address{
     line-height:1.25rem;
-    
 }
 .sb-footer-below{
     display: flex;
@@ -91,8 +92,49 @@ background: linear-gradient(0deg, #0F594D, #000000);
     color: white;
     font-weight: 600;
 }
+.Parent_company {
+    /* white-space: nowrap; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    height: 100%; /* Make sure the parent has a defined height */
+}
+
+.pc_name {
+    color: rgb(220, 178, 73); /* Adjust color based on your background */
+    width: 60%;
+    font-size: 20px;
+}
+
+.Parent_company img {
+    width: 100px; /* Set the size of the image */
+    height: 100px;
+}
+
+.email-link{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1250px){
+    .sb-footer-section-padding{
+        padding: 2rem 10px;
+    }
+
+    .sb-footer-links-div{
+        width: fit-content;
+        margin: 1rem 0;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+    }
+}
 
 @media screen and (max-width: 768px){
+    .sb-footer-section-padding{
+        padding: 2rem 2rem;
+    }
+
     .sb-footer-heading h1{
         font-size: 44px;
         line-height: 50px;
@@ -129,7 +171,36 @@ background: linear-gradient(0deg, #0F594D, #000000);
 }
 
 @media screen  and (max-width: 460px){
+
+    .sb-footer-links-div:nth-of-type(1),.sb-footer-links-div:nth-of-type(2){
+        display: none;
+    }
+
     .sb-footer-links{
-       width:95px;
+       width:100%;
+       margin: 0;
+       align-items: flex-start;
+       padding: 0;
+       justify-self: start;
+       justify-content: center;
     } 
+    .sb-footer-links-div{
+        max-width: 300px;
+        min-width: 300px ;
+        padding: 0;
+        margin: 0 0;
+        justify-content: flex-start;
+    }
+
+    .pc_name {
+        color: rgb(220, 178, 73); /* Adjust color based on your background */
+        width: 60%;
+        font-size: 30px;
+    }
+    
+    .Parent_company img {
+        width: 100px; /* Set the size of the image */
+        height: 100px;
+    }
+    
 }

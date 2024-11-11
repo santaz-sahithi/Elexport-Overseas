@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 import CanadaImg from '../../assests/canada1.jpg';
-import Canada2 from '../../assests/canada2.jpg';
+import Canada2 from '../../assests/CanadaFlagImg.png';
 import uni1 from '../../assests/1University of Manitoba.jpg';
 import uni2 from '../../assests/University of Waterloo.png';
 import uni3 from '../../assests/Lakehead University.jpg';

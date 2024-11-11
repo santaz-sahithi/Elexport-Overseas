@@ -42,13 +42,13 @@
 
 .Austria_uni_name1,.Austria_uni_name2,.Austria_uni_name3,.Austria_uni_name4,.Austria_uni_name5,.Austria_uni_name6,.Austria_uni_name7,.Austria_uni_name6,.Austria_uni_name7{
     white-space: nowrap;
-    width: 19vw;
-    height: 2vw;
+    width: 18vw;
+    height: 3vh;
     color:white;
     position: absolute;
     margin-top: 22vw;
     margin-left: 10vw;
-    font-size: 1.7vw;
+    font-size: 16px;
     border-radius: 20px;
     padding: 0.25vw 1.5vw ;
 }

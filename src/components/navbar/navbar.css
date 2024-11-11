@@ -33,7 +33,7 @@ nav {
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 1vw;
+  gap: 2vw;
   padding: 0vw;
 }
 
@@ -44,9 +44,7 @@ nav {
 .menu .navbar_li {
   text-decoration: none;
   align-items: center;
-  /* padding: 10px 20px; */
   padding:  1vw ;
-  width: 10vw;
 }
 
 .menu .navbar_li .anchor_a {
@@ -55,6 +53,7 @@ nav {
   font-size: 18px;
   font-weight: 450;
   padding: 8px;
+  white-space: nowrap;
   transition: background-color 0.3s ease;
 }
 
@@ -92,6 +91,12 @@ nav {
   width: 70px;
   height: 70px;
   margin: 10px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar_header{
+    gap: 20%;
+  }
 }
 
 /* Responsive Styling */

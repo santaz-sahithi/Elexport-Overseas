@@ -9,7 +9,7 @@ const OurMission = () => {
       <div className="text-container">
         <h2>Our Mission</h2>
         <p>
-          Elexport Overseers is dedicated to empowering aspiring students to
+          Elexport Overseas is dedicated to empowering aspiring students to
           achieve their academic and personal goals through personalized
           guidance and support throughout their study abroad journey. Our
           mission is to provide comprehensive services, from initial research to

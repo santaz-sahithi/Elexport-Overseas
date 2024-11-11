@@ -3,20 +3,20 @@ import "./OurServices.css";
 import ScholarshipAssistance from "../../../assests/S_ScholarshipAssistance.jpg";
 import UniApp from "../../../assests/S_UniversityApplication.jpg";
 import PreDep from "../../../assests/V_PreDeparture.jpg";
-import AccoAssis from "../../../assests/V_Accomodation.jpg";
+import AccoAssis from "../../../assests/V_topUni.jpeg";
 import CourseAdvice from "../../../assests/S_CourseAdvice.jpg";
-import StudyAbroad from "../../../assests/StudyAbroadImg.jpg";
+import PartTime from "../../../assests/Part-time-job.jpg";
 import VisaAppPic from "../../../assests/S_VisaApplication.jpg";
 
 function OurServices() {
   const services = [
-    { img: ScholarshipAssistance, title: "Scholarship Assistance" },
-    { img: VisaAppPic, title: "Visa Application Assistance" },
-    { img: UniApp, title: "University Application" },
-    { img: CourseAdvice, title: "Course Advice" },
-    { img: StudyAbroad, title: "Study Abroad" },
-    { img: PreDep, title: "Pre Departure Assistance" },
-    { img: AccoAssis, title: "Accomodation Assistance" },
+    { img: ScholarshipAssistance, title: "Personalized guidance for student programs" },
+    { img: AccoAssis, title: "Admission to top universities" },
+    { img: UniApp, title: "Appealing study grants or scholarships" },
+    { img: VisaAppPic, title: " Visa and Flight ticket assistance" },
+    { img: CourseAdvice, title: "Funding Assistance" },
+    { img: PreDep, title: "Airport pickup and Accomodation Assistance" },
+    { img: PartTime, title: "Part time & Full time Job Assistance" },
   ];
 
   return (

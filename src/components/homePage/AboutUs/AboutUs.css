@@ -24,17 +24,17 @@
   position: absolute;
   flex: 0.7;
   background-color: #F4F7FC; 
-  margin: 2vw 1vw 3vw 2vw;
   border: 2px solid #F3AE27;
   z-index: 2;
-  left: 2vw;
-  font-size: 20px;
+  left: 3vw;
+  font-size: 22px;
   line-height: 1.3;
-  width: 48vw;
-  height: 28vw;
+  width: 600px;
+  height: 350px;
+  margin: 4vw 1vw 2vw 2vw;
   padding: 1vw 2vw;
   display: flex;
-  align-items: center; 
+  /* align-items: center;  */
 }
 
 .AboutUs_description{
@@ -53,23 +53,25 @@
   margin-left: 5%;
 }
 
-@media only screen and (min-width:1130px) and (max-width:1250px) {
+@media only screen and (min-width:1130px) and (max-width:1300px) {
 
 .AboutUs_image{
   flex: 0.6;
 }
 
 .AboutUs_text{
-  width: 48vw;
-  height: 30vw;
-  margin: 2vw 1vw 2vw 2vw;
+  width: 480px;
+  height: 330px;
+  margin: 4vw 1vw 2vw 2vw;
   padding: 1vw 2vw;
+  left: 4vw;
+  align-items: center; 
 }
 
 .AboutUs_description{
   padding: 0;
   /* margin: 8px 0px; */
-  font-size: 18px;
+  font-size: 20px;
 }
 }
 
@@ -81,9 +83,10 @@
 }
 
 .AboutUs_text{
-  width: 48vw;
+  width: 42vw;
   height: 28vw;
   margin: 2vw 1vw 2vw 2vw;
+  align-items: center;
 }
 
 .AboutUs_description{
@@ -99,14 +102,14 @@
 }
 
 .AboutUs_text{
-  width: 51vw;
-  height: 29vw;
+  width: 420px;
+  height: 270px;
   margin: 2vw 1vw 2vw 2vw;
 }
 
 .AboutUs_description{
   padding: 0px;
-  font-size: 16px;
+  font-size: 17px;
 }
 }
 
@@ -123,12 +126,13 @@
   }
 
   .AboutUs_image{
-    flex: 0.55;
+    flex: 0.6;
   }
 
   .AboutUs_text{
-    width: 45vw;
-    height: 26vw;
+    width: 380px;
+    height: 220px;
+    margin: 3vw 1vw 2vw 2vw;
     align-items:start; 
     padding: 20px 10px;
   }
@@ -175,13 +179,13 @@
   position: relative !important;
   width: 90%;
   left: 0px;
-  margin: auto;
+  margin: 5px auto;
   border: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 }
 
-@media only screen and (min-width:0px) and (max-width:425px) {
+@media only screen and (min-width:0px) and (max-width:430px) {
 
     .AboutUs_heading h2{
       font-size: 2rem;
@@ -201,7 +205,9 @@
     }
 
     .AboutUs_text{
+      margin: 5px auto;
       font-size: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
 

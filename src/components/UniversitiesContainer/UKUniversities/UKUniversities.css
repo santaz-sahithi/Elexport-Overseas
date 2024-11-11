@@ -1,5 +1,5 @@
 .UK_universities{
-    background: linear-gradient(180deg, rgb(227, 244, 241) 0%, rgba(12, 84, 72, 1) 100%);;
+    background: linear-gradient(0deg, rgba(1, 33, 105, 1) 7%, rgba(255, 255, 255, 1) 99%);
     height: fit-content;
     z-index: 0;
     position: relative;
@@ -11,8 +11,8 @@
     font-size: 2.5rem;
     text-align: center;
     padding-top: 3vw;
-    color: #0C5448;
-    text-shadow: 0 0 3px #CFB248;
+    color: rgba(177, 18, 18, 80%);
+    text-shadow: 0 0 3px #ffffff;
 }
 
 .UK_uni_images {

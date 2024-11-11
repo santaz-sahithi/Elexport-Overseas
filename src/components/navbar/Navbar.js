@@ -3,7 +3,6 @@ import './navbar.css';
 import logo from "../../assests/LogoElexpot_No bg.png";
 import whatsappIcon from "../../assests/whatsapp-icon.png";
 import callIcon from "../../assests/Call button.png";
-import { behavior } from '@testing-library/user-event/dist/cjs/event/behavior/registry.js';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -56,8 +55,8 @@ const Navbar = () => {
                     <li className='navbar_li'><a className="anchor_a" href="/Home">Home</a></li>
                     <li className='navbar_li'><a className="anchor_a" href="/countries">Countries</a></li>
                     <li className='navbar_li'><a className="anchor_a" href="/Services">Services</a></li>
-                    <li className='navbar_li'><a className="anchor_a" href="/OurTeam"  onClick={handleAboutUsClick}>About</a></li>
-                    <li className='navbar_li'><a className="anchor_a" href="/ContactUs">Contact</a></li>
+                    <li className='navbar_li'><a className="anchor_a" href="/OurTeam"  onClick={handleAboutUsClick}>About Us</a></li>
+                    <li className='navbar_li'><a className="anchor_a" href="/ContactUs">Contact Us</a></li>
                 </ul>
                 <div className="menu-toggle" onClick={toggleMenu}>
                     <span></span>

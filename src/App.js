@@ -21,8 +21,8 @@ import LatviaUni from './Pages/AllCountries/LatviaUni.js'; //Done 10
 import FranceUni from './Pages/AllCountries/FranceUni.js'; //Done 11
 import LithuaniaUni from './Pages/AllCountries/LithuaniaUni.js'; //Done 12
 import AustriaUni from './Pages/AllCountries/AustriaUni.js'; //Done 13
-import GermanUni from './Pages/AllCountries/GermanUni.js'; //Done 14 need to add more
-import UKUni from './Pages/AllCountries/UKUni.js'; //Done 15
+import GermanyUni from './Pages/AllCountries/GermanUni.js'; //Done 14 need to add more
+import UnitedKingdomUni from './Pages/AllCountries/UKUni.js'; //Done 15
 
 function App() {
   useEffect(() => {
@@ -52,12 +52,11 @@ function App() {
           <Route path = '/FranceUni' element = {<FranceUni />}/>
           <Route path = '/LithuaniaUni' element = {<LithuaniaUni />}/>
           <Route path = '/AustriaUni' element = {<AustriaUni />}/>
-          <Route path = '/GermanUni' element={<GermanUni />}/> 
-          <Route path = "/UKUni" element = {<UKUni />}/>
+          <Route path = '/GermanyUni' element={<GermanyUni />}/> 
+          <Route path = "/UnitedKingdomUni" element = {<UnitedKingdomUni />}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
-      <Footer/>
-      {/* <CountryList/> */}
     </div>
   )
 } 

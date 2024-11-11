@@ -6,7 +6,7 @@ const TypewriterEffect = () => {
   return (
     <div className='bg-color-qa'>
     <div className="container">
-      <h3 className="question">Question - Do you know why people choose to study abroad?</h3>
+      <h3 className="question">Do you know why people choose to study abroad</h3>
       <TypeAnimation
         sequence={[
           `You'll immerse yourself in a new language.\nStudying abroad is one of the best ways to acquire global skills and access personal and professional opportunities.\nYou'll also explore cultural immersion, personal development, career opportunities, and many other reasons.`,

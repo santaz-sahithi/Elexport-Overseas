@@ -9,13 +9,12 @@ import OurMission from '../components/homePage/OurMission/OurMission';
 import OurVision from '../components/homePage/OurVision/OurVision';
 import LatestNews from '../components/homePage/LatestNews/LatestNews';
 import QA from '../components/homePage/Q&A/QA';
-// import Navbar from '../components/navbar/Navbar';
+import ReviewsSection from "../components/homePage/ReviewSection/ReviewSection";
 
 
 const HomePage = () => {
   return (
     <div>
-        {/* <Navbar /> */}
         <Herosection />
         <Tagline/>      
         <QA/>
@@ -25,7 +24,8 @@ const HomePage = () => {
         <AboutUs/> 
         <OurMission/>
         <OurVision/>    
-        <LatestNews/>         
+        <ReviewsSection />
+        <LatestNews/>  
     </div>
   )
 }

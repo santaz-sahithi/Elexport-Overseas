@@ -1,13 +1,6 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.css";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import React, { useRef, useEffect } from "react";
+import Mycard from "./Mycard.js";
 import "./ExploreSection.css";
-import { Link, replace } from "react-router-dom";
-
-
 
 import Australiaicon from "../../../assests/Australia.jpg";
 import USAicon from "../../../assests/usa.jpg";
@@ -25,76 +18,75 @@ import Sloveniaicon from "../../../assests/SloveniaExplore.jpg";
 import Hungaryicon from "../../../assests/HungaryExplore.jpg";
 import Austriaicon from "../../../assests/AustriaExplore.jpg";
 
-import { Keyboard, Pagination, Navigation } from "swiper/modules";
+const imageSources = [
+  Australiaicon,
+  USAicon,
+  Germanyicon,
+  Canadaicon,
+  UKicon,
+  Latviaicon,
+  Lithuaniaicon,
+  Franceicon,
+  Swedenicon,
+  Finlandicon,
+  Irelandicon,
+  Maltaicon,
+  Sloveniaicon,
+  Hungaryicon,
+  Austriaicon
+];
 
 const ExploreSection = () => {
-  const cards = [
-    { imgSrc: USAicon, name: "USA" },
-    { imgSrc: Germanyicon, name: "Germany" },
-    { imgSrc: UKicon, name: "United Kingdom" },
-    { imgSrc: Australiaicon, name: "Australia" },
-    { imgSrc: Canadaicon, name: "Canada" },
-    { imgSrc: Latviaicon, name: "Latvia" },
-    { imgSrc: Lithuaniaicon, name: "Lithuania" },
-    { imgSrc: Swedenicon, name: "Sweden" },
-    { imgSrc: Franceicon, name: "France" },
-    { imgSrc: Finlandicon, name: "Finland" },
-    { imgSrc: Irelandicon, name: "Ireland" },
-    { imgSrc: Maltaicon, name: "Malta" },
-    { imgSrc: Sloveniaicon, name: "Slovenia" },
-    { imgSrc: Austriaicon, name: "Austria" },
-    { imgSrc: Hungaryicon, name: "Hungary" },
-  ];
+  const boxRef = useRef(null); // Create a ref to the product-container
+
+  // Preload images
+  useEffect(() => {
+    imageSources.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
+  const btnpressprev = () => {
+    let cardWidth = boxRef.current.querySelector(".my-card").clientWidth; // Get width of a single card
+    boxRef.current.scrollLeft -= cardWidth + 20; // Move by two cards' width
+  };
+
+  const btnpressnext = () => {
+    let cardWidth = boxRef.current.querySelector(".my-card").clientWidth;
+    boxRef.current.scrollLeft += cardWidth + 20;
+  };
 
   return (
-    <>
+    <div className="product-carousel">
+      <button className="pre-btn" onClick={btnpressprev}>
+        <p>&lt;</p>
+      </button>
+      <button className="next-btn" onClick={btnpressnext}>
+        <p>&gt;</p>
+      </button>
+
       <div className="explore-heading">
         <h1>Explore the Best of the World</h1>
       </div>
-      <Swiper
-        slidesPerView={1}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          500: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          700: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-          1000: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 10,
-          },
-        }}
-        keyboard={{
-          enabled: true,
-        }}
-        navigation={true}
-        modules={[Keyboard, Pagination, Navigation]}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        resistance={true}
-        resistanceRatio={0.85}
-        className="mySwiper1"
-      >
-        {cards.map((card, index) => (
-          <SwiperSlide className="swiper-slide-1" key={index}>
-            <a href={`/${card.name.replace(/\s+/g, '')}Uni`}>
-              <img src={card.imgSrc} alt={card.name} />
-              <h3 className="card1">{card.name}</h3>
-            </a>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </>
+      <div className="product-container" ref={boxRef}>
+        <Mycard className="my-card" cardno="1" imgSrc={USAicon} countryName="USA" />
+        <Mycard className="my-card" cardno="2" imgSrc={Australiaicon} countryName="Australia" />
+        <Mycard className="my-card" cardno="3" imgSrc={Germanyicon} countryName="Germany" />
+        <Mycard className="my-card" cardno="4" imgSrc={Canadaicon} countryName="Canada" />
+        <Mycard className="my-card" cardno="5" imgSrc={UKicon} countryName="UK" />
+        <Mycard className="my-card" cardno="6" imgSrc={Latviaicon} countryName="Latvia" />
+        <Mycard className="my-card" cardno="7" imgSrc={Lithuaniaicon} countryName="Lithuania" />
+        <Mycard className="my-card" cardno="8" imgSrc={Franceicon} countryName="France" />
+        <Mycard className="my-card" cardno="9" imgSrc={Swedenicon} countryName="Sweden" />
+        <Mycard className="my-card" cardno="10" imgSrc={Finlandicon} countryName="Finland" />
+        <Mycard className="my-card" cardno="11" imgSrc={Irelandicon} countryName="Ireland" />
+        <Mycard className="my-card" cardno="12" imgSrc={Maltaicon} countryName="Malta" />
+        <Mycard className="my-card" cardno="13" imgSrc={Sloveniaicon} countryName="Slovenia" />
+        <Mycard className="my-card" cardno="14" imgSrc={Austriaicon} countryName="Austria" />
+        <Mycard className="my-card" cardno="15" imgSrc={Hungaryicon} countryName="Hungary" />
+      </div>
+    </div>
   );
 };
 

@@ -16,28 +16,28 @@ const WhyWereTheBestChoice = () => {
         {/* Right Side - Text Content */}
         <div className="best-choice-content">
           <p className="best-choice-description">
-            Elexport Overseers offers a range of benefits for students aspiring to study abroad:</p>
+            Elexport Overseas offers a range of benefits for students aspiring to study abroad:</p>
           <ul className="best-choice-list">
             <li>
-              Personalized Guidance: Tailored support throughout the process.
+                &bull; &nbsp; Personalized Guidance: Tailored support throughout the process.
             </li>
             <li>
-              Comprehensive Services: University selection, application help, visa guidance, and pre-departure orientation.            </li>
+                &bull; &nbsp; Comprehensive Services: University selection, application help, visa guidance, and pre-departure orientation.            </li>
             <li>
-              Global Expertise: In-depth knowledge of various destinations and universities.
+                &bull; &nbsp; Global Expertise: In-depth knowledge of various destinations and universities.
             </li>
             <li>
-              Commitment to Success: Dedicated to helping students achieve their goals.
+                &bull; &nbsp; Commitment to Success: Dedicated to helping students achieve their goals.
             </li>
             <li>
-              Strong Network: Extensive partnerships for diverse opportunities.
+                &bull; &nbsp; Strong Network: Extensive partnerships for diverse opportunities.
             </li>
             <li>
-              Trustworthy Reputation: Proven track record in guiding students effectively.
+                &bull; &nbsp; Trustworthy Reputation: Proven track record in guiding students effectively.
             </li>
           </ul>
           <p className="best-choice-footer">
-            With Elexport Overseers, you’re in experienced hands every step of the way.</p>
+            With Elexport Overseas, you’re in experienced hands every step of the way.</p>
         </div>
 
       </div>

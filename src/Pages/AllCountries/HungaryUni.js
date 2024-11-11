@@ -6,7 +6,7 @@ import {
   HungaryUniversities,
 } from "../../components/UniversitiesContainer";
 import HungaryImg from "../../assests/Hungary-background-img.jpeg";
-import HungaryFlag from "../../assests/Hungary-flag-img.jpeg";
+import HungaryFlag from "../../assests/HungaryFlagImg.jpg";
 import Hun_uni_1 from "../../assests/Hun_uni-1.jpeg";
 import Hun_uni_2 from "../../assests/Hun_uni-2.jpeg";
 import Hun_uni_3 from "../../assests/Hun_uni-3.jpeg";

@@ -11,7 +11,7 @@
     font-size: 2.5rem;
     text-align: center;
     padding-top: 3vw;
-    color: #0C5448;
+    color: #ac1a1a;
     text-shadow: 0 0 3px #CFB248;
 }
 
@@ -42,7 +42,7 @@
 
 .France_uni_name1,.France_uni_name2,.France_uni_name3,.France_uni_name4,.France_uni_name5,.France_uni_name6,.France_uni_name7,.France_uni_name8,.France_uni_name9{
     white-space: nowrap;
-    width: 19vw;
+    width: 18vw;
     height: 3vh;
     color:white;
     position: absolute;

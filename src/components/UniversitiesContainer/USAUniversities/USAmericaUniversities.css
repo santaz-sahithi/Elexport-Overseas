@@ -43,12 +43,12 @@
 .USA_uni_name1,.USA_uni_name2,.USA_uni_name3,.USA_uni_name4,.USA_uni_name5,.USA_uni_name6,.USA_uni_name7{
     white-space: nowrap;
     width: 19vw;
-    height: 2vw;
+    height: 3vh;
     color:white;
     position: absolute;
     margin-top: 22vw;
     margin-left: 10vw;
-    font-size: 1.7vw;
+    font-size: 16px;
     border-radius: 20px;
     padding: 0.25vw 1.5vw ;
 }
@@ -90,9 +90,9 @@
 
     .USA_uni_name1,.USA_uni_name2,.USA_uni_name3,.USA_uni_name4,.USA_uni_name5,.USA_uni_name6,.USA_uni_name7{
         margin-top: 29vw;
-        font-size: 2.3vw;
-        width: 27vw;
-        height: 2.5vh;
+        font-size: 16px;
+        width: 26vw;
+        height:3vh;
         margin-left: 15vw;
     }
 

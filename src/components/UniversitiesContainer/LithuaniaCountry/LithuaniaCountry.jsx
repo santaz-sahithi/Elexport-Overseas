@@ -6,8 +6,8 @@ function LithuaniaCountry(props) {
   const rel_country_flag = props.rel_country_flag;
   const here_we_go_again = props.here_we_go_again;
   return (
-    <div className='why-rel-country-container'>
-      <div className='why-rel-country-container-flag'>
+    <div className='Lith-why-rel-country-container'>
+      <div className='Lith-why-rel-country-container-flag'>
         <img src = {rel_country_flag} alt = {here_we_go_again}/>
       </div>
       <div className="rel-text-Lithuania">

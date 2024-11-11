@@ -6,25 +6,25 @@ function FinlandCountry(props) {
   const rel_country_flag = props.rel_country_flag;
   const here_we_go_again = props.here_we_go_again;
   return (
-    <div className='why-rel-country-container-Finland'>
-      <div className='why-rel-country-container-flag'>
+    <div className='Fin-why-rel-country-container-Finland'>
+      <div className='Fin-why-rel-country-container-flag'>
         <img src = {rel_country_flag} alt = {here_we_go_again}/>
       </div>
       <div className="rel-text-Fin">
         <div className='Fin-child1'>
-          <p>Finland’s universities, like Aalto and Helsinki, rank globally with programs in English.</p>
+          <p>France offers a rich study abroad experience with world-class universities and vibrant cities.</p>
         </div>
         <div className='Fin-child2'>
-          <p>Affordable living and tuition, with scholarships available.</p>
+          <p>Top institutions like Sorbonne University and École Polytechnique rank globally for academic excellence.</p>
         </div>
         <div className='Fin-child3'>
-          <p>Experience Finland’s lakes, forests, and traditional saunas.</p>
+          <p>French universities offer diverse programs in English, spanning business, engineering, and the arts.</p>
         </div>
         <div className='Fin-child4'>
-          <p>Finland leads in renewable energy and eco-friendly living.</p>
+          <p>Students can enjoy France's iconic landmarks, from the Eiffel Tower to the French Riviera.</p>
         </div>
         <div className='Fin-child5'>
-          <p>Balanced education and lifestyle for international students.</p>
+          <p>While many courses are in English, learning French enhances cultural immersion and opportunities.</p>
         </div>
       </div>
     </div>

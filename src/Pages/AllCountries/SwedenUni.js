@@ -4,7 +4,7 @@ import PopCourses from "../../components/UniversitiesContainer/popCourses/PopCou
 import SwedenCountry from '../../components/UniversitiesContainer/SwedenCountry/SwedenCountry';
 import SwedenUniversities from '../../components/UniversitiesContainer/SwedenUniversities/SwedenUniversities';
 import SwedenImg from "../../assests/Sweden-background-img.jpeg";
-import SwedenFlag from "../../assests/Sweden-flag-img.jpeg";
+import SwedenFlag from "../../assests/SwedenFlagImg.jpg";
 import Swe_uni_1 from "../../assests/Swe_uni-1.jpeg";
 import Swe_uni_2 from "../../assests/Swe_uni-2.jpeg";
 import Swe_uni_3 from "../../assests/Swe_uni-3.jpeg";

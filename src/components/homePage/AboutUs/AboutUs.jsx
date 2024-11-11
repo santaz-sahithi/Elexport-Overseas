@@ -11,7 +11,7 @@ function AboutUs() {
                 {/* left Side - Text Content */}
                 <div className="AboutUs_text">
                     <p className="AboutUs_description">
-                    At Elexport Overseers, based in Cochin, we are more than a study abroad consultancy – we are your trusted partner in achieving your international education dreams. Our mission is to empower students by providing personalized guidance and support throughout the study abroad journey. With years of expertise, we offer tailored services, including university selection, application assistance, visa guidance, and pre-departure support. Our knowledgeable team stays updated on the latest immigration and education trends to ensure a seamless experience. Choose Elexport Overseers to unlock the doors to global opportunities and academic success.
+                    At Elexport Overseas, based in Cochin, we are more than a study abroad consultancy – we are your trusted partner in achieving your international education dreams. Our mission is to empower students by providing personalized guidance and support throughout the study abroad journey. With years of expertise, we offer tailored services, including university selection, application assistance, visa guidance, and pre-departure support. Our knowledgeable team stays updated on the latest immigration and education trends to ensure a seamless experience. Choose Elexport Overseas to unlock the doors to global opportunities and academic success.
                     </p>
                 </div>
                 {/* Right Side - Image */}

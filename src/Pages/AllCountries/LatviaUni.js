@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import LatviaImg from '../../assests/latviaimg.jpg';
-import Latvia2 from '../../assests/latvia2.png';
+import Latvia2 from '../../assests/LatviaFlagImg.jpg';
 import uni1 from '../../assests/kazimieras.jpeg';
 import uni2 from '../../assests/Baltijas Starptautiskā Akadēmija.jpg';
 import uni3 from '../../assests/Tio university of applied sciences.jpg';
@@ -12,7 +12,7 @@ import uni8 from '../../assests/Riga Stradins University.jpg';
 import uni9 from '../../assests/Vilnius University.jpg';
 import CountryHome from '../../components/UniversitiesContainer/countryHome/CountryHome';
 import LatviaCountry from '../../components/UniversitiesContainer/LatviaCountry/AboutCountry3';
-import LatviaUniversities from '../../components/UniversitiesContainer/LatviaUniversities/PopUniversities3';
+import LatviaUniversities from '../../components/UniversitiesContainer/LatviaUniversities/LatviaUniversities3';
 import PopCourses from '../../components/UniversitiesContainer/popCourses/PopCourses';
 
 const LatviaUni = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
-import './popUniversities3.css'
+import './LatviaUniversities3.css'
 
-function PopUniversities3(props) {
+function LatviaUniversities3(props) {
     const pop_uni1 = props.pop_uni1;
   const pop_uni2 = props.pop_uni2;
   const pop_uni3 = props.pop_uni3;
@@ -67,4 +67,4 @@ function PopUniversities3(props) {
   )
 }
 
-export default PopUniversities3
+export default LatviaUniversities3

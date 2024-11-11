@@ -1,4 +1,4 @@
-.why-rel-country-container{
+.Swe-why-rel-country-container{
     background: #0C5448;
     display: flex;
     height: 50vw;
@@ -6,26 +6,26 @@
     justify-content:center;
 }
 
-.why-rel-country-container-flag{
+.Swe-why-rel-country-container-flag{
     padding: 2% 2% 2% 2%;
     z-index: 0;
     
 }
 
-.why-rel-country-container-flag img{
+.Swe-why-rel-country-container-flag img{
     height: 35vw;
     width: 35vw;
     border-radius: 50%;
     border: 2px solid #F3AE27;   
 }
 
-.rel-text{
+.Swe-rel-text{
     padding-left: 3%;
     width: fit-content;
 }
 
 
-.rel-text p{
+.Swe-rel-text p{
     font-size: 1.1vw;
     width: 31vw; 
     color: white;
@@ -35,64 +35,65 @@
     text-align: left;
 }
 
-.child1,.child2,.child3,.child4,.child5 {
+.Swe-child1,.Swe-child2,.Swe-child3,.Swe-child4,.Swe-child5 {
     position: relative;
     border-radius: 50px;
     height:  5vw;
     margin: 1vw;
+    width: 32vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.child1 {
+.Swe-child1 {
     left: -2.5vw;
     background: linear-gradient(90deg, rgba(0, 106, 167, 1) 49%, rgba(254, 204, 2, 1) 100%);   
 }
 
-.child1 p {
+.Swe-child1 p {
     color: black !important;
 }
 
-.child2 {
+.Swe-child2 {
     background: #006AA7;    
     left: -1vw;
 }
 
-.child2 p {
+.Swe-child2 p {
     color: white !important;
 }
 
-.child3 {
+.Swe-child3 {
     background: #FECC02;
     left: 0;
 }
 
-.child3 p {
+.Swe-child3 p {
     color: #000 !important;
 }
 
-.child4 {
+.Swe-child4 {
     background: #006AA7;
     left: -1vw;
 }
 
-.child5 {
+.Swe-child5 {
     left: -2.5vw;
     background: linear-gradient(90deg, rgba(254, 204, 2, 1) 0%, rgba(0, 106, 167, 1) 51%);
 
 }
 
-.child5 p {
+.Swe-child5 p {
     color: black !important;
 }
 
 
 @media only screen and (max-width: 1000px){
-    .child1,.child2,.child3,.child4,.child5 {
+    .Swe-child1,.Swe-child2,.Swe-child3,.Swe-child4,.Swe-child5 {
         height: 7vw;
         width: 45vw;
     }
 
-    .rel-text p{
+    .Swe-rel-text p{
         font-size: 14px;
         margin:5px 10px;
         width: 41vw;
@@ -102,18 +103,19 @@
 }
 
 @media only screen and (min-width:590px) and (max-width: 700px) {
-    .why-rel-country-container{
+    .Swe-why-rel-country-container{
         flex-direction: column;
         height: fit-content;
     }
 
-    .child1,.child2,.child3,.child4,.child5 {
-        height: 6vh;
-        width: 50vw;
+    .Swe-child1,.Swe-child2,.Swe-child3,.Swe-child4,.Swe-child5 {
+        height: 7vh;
+        width: 60vw;
         margin: 1.5vw;
+        left: 0;
     }
 
-    .rel-text p{
+    .Swe-rel-text p{
         margin: 5px 10px;
         font-size: 0.7rem;
         width: 45vw;
@@ -125,28 +127,28 @@
 }
 
 @media only screen and (max-width:590px) {
-    .why-rel-country-container{
+    .Swe-why-rel-country-container{
         flex-direction: column;
         height: fit-content;
     }
 
-    .why-rel-country-container-flag{
+    .Swe-why-rel-country-container-flag{
         margin-top: 20px;
     }
 
-    .why-rel-country-container-flag img{
+    .Swe-why-rel-country-container-flag img{
         height: 55vw;
         width: 55vw;
     }
 
-    .child1,.child2,.child3,.child4,.child5 {
+    .Swe-child1,.Swe-child2,.Swe-child3,.Swe-child4,.Swe-child5 {
         width: 75vw;
         height: 12vw;
         margin: 3vw;
         left: 0;
     }
 
-    .rel-text p{
+    .Swe-rel-text p{
         width: 70vw;
         font-size: 16px;
         padding: 1.2vw;
@@ -155,23 +157,23 @@
 }
 
 @media screen and (max-width:500px) {
-    .child1,.child2,.child3,.child4,.child5 {
+    .Swe-child1,.Swe-child2,.Swe-child3,.Swe-child4,.Swe-child5 {
         height: 10vh;
         width: 85vw;
     }
-    .why-rel-country-container-flag img{
+    .Swe-why-rel-country-container-flag img{
         width: 60vw;
         height: 60vw;
     }
 
-    .child1,.child2,.child3,.child4,.child5 {
+    .Swe-child1,.Swe-child2,.Swe-child3,.Swe-child4,.Swe-child5 {
         width: 90vw;
         height: fit-content;
         margin: 3vw;
         left: 0;
     }
 
-    .rel-text p{
+    .Swe-rel-text p{
         width: 85vw;
         font-size: 16px;
         padding: 2.5vw;

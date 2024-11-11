@@ -11,8 +11,8 @@
     font-size: 3rem;
     text-align: center;
     padding-top: 3vw;
-    color: #0C5448;
-    text-shadow: 0 0 3px #CFB248;
+    color: rgba(177, 18, 18, 80%);
+    text-shadow: 0 0 3px #fdfdfd;
 }
 
 .pop_uni_images {
@@ -47,7 +47,7 @@
     color:white;
     position: absolute;
     margin-top: 22vw;
-    margin-left: 5vw;
+    margin-left: 10vw;
     font-size: 1.3vw;
     border-radius: 20px;
     padding: 0.25vw 1.5vw ;

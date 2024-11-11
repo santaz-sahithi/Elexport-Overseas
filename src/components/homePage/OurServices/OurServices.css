@@ -213,8 +213,8 @@ box-shadow: none;
   }
 
   .spin{
-    width:14em;
-    height:14em;
+    width:13em;
+    height:13em;
   }
 
   .service-item{
@@ -222,9 +222,9 @@ box-shadow: none;
   }
 
   .service-image {
-    width: 217.2px;
-    height: 217.2px;
-    margin-top: 3px;
+    width: 200px;
+    height: 200px;
+    margin-top: 3.5px;
     object-fit: cover;
     border-radius: 50%;
     /* filter: blur(1px); */

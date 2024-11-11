@@ -1,0 +1,178 @@
+.services-container {
+  padding: 30px;
+  background-color: #00675B; 
+  color: #E6A543;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: #E6A543;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+
+.service-image {
+  width: 20vw;
+  height: 20vw;
+}
+
+.service-title {
+  position: absolute;
+  bottom: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+  text-align: center;
+  width: 60%;
+}
+
+/* Base styling for service item */
+.service-item {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:375px){
+  h2{
+    font-size: 1.5rem;
+  }
+  .service-item{
+    margin: 5%;
+    width: 30%;
+    height: 20%;
+  }
+  .service-title {
+    position: absolute;
+    bottom: 25%;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width:425px){
+  h2{
+    font-size: 1.5rem;
+  }
+  .service-item{
+    margin: 5%;
+    width: 30%;
+    height: 20%;
+  }
+  .service-title {
+    position: absolute;
+    bottom: 28%;
+    left: 7%;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width:576px){
+  h2{
+    font-size: 1.5rem;
+  }
+  .service-item{
+    margin: 5%;
+    width: 30%;
+    height: 20%;
+  }
+  .service-title {
+    position: absolute;
+    bottom: 28%;
+    left: 7%;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width:768px){
+  h2{
+    font-size: 1.5rem;
+  }
+  .service-item{
+    margin: 5%;
+    width: 30%;
+    height: 20%;
+  }
+  .service-title {
+    position: absolute;
+    bottom: 28%;
+    left: 7%;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+:root {
+  --angle: 45deg;
+  --opacity: 0.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.service-item {
+  border-radius: 50%; /* 50% ensures it stays circular */
+  --border-size: 0.3rem;
+  border: var(--border-size) solid transparent;
+
+  /* Circular conic gradient */
+  border-image: conic-gradient(
+      from var(--angle),
+      #fbb300 90deg,
+      #399953 270deg
+    )
+    1 stretch;
+
+  background: rgb(255 255 255 / var(--opacity));
+  animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+}
+
+@property --opacity {
+  syntax: "<number>";
+  initial-value: 0.5;
+  inherits: false;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes opacityChange {
+  to {
+    --opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.service-item {
+  animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+}

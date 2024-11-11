@@ -6,7 +6,7 @@ import {
 import FinlandCountry from "../../components/UniversitiesContainer/FinlandCountry/FinlandCountry.jsx";
 import FinlandUniversities from "../../components/UniversitiesContainer/FinlandUniversities/FinlandUniversities.jsx";
 import FinlandImg from "../../assests/Finland_Hero.jpg";
-import FinlandFlag from "../../assests/Finland-flag-img.jpeg";
+import FinlandFlagImg from "../../assests/FinlandFlagImg.jpg";
 import Fin_uni_1 from "../../assests/Fin_uni-1.jpeg";
 import Fin_uni_2 from "../../assests/Fin_uni-2.jpeg";
 import Fin_uni_3 from "../../assests/Fin_uni-3.jpeg";
@@ -26,7 +26,7 @@ const FinlandUni = () => {
         rel_country_name="FINLAND"
         img_dec_prop="asdfgh"
       />
-      <FinlandCountry rel_country_flag={FinlandFlag} here_we_go_again="" />
+      <FinlandCountry rel_country_flag={FinlandFlagImg} here_we_go_again="" />
       <FinlandUniversities
         Fin_uni_img1={Fin_uni_1}
         Fin_uni1="Aalto University"

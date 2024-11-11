@@ -1,53 +1,104 @@
-.mySwiper2 {
-    width:95%;
-    height: fit-content;
+
+.review-heading h1 {
+  margin: 1%;
+  font-size: 3rem;
+  color: #0C5448;
+  padding-bottom:1%;
+}
+
+.review-carousel {
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+  z-index: 1;
+}
+
+.review-container {
+  /* padding: 0 2vw; */
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 100%; /* Ensures full width usage */
+  /* Adjust this based on design */
+  transform: translate3d(0, 0, 0);
+  scroll-snap-type: x mandatory;
+}
+
+.review-container > * {
+  scroll-snap-align: start; /* Makes sure the image aligns fully at the start */
+  flex: 0 0 auto; /* Prevents resizing the items */
+}
+
+.pre-btn,
+.next-btn {
+  
+  z-index: 2;
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+  right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+  font-size: 40px; /* Adjusted size for better aesthetics */
+  background: white; /* Subtle gradient for a modern look */
+  border-radius: 20%; /* Fully rounded button */
+  color: rgb(50, 50, 50); /* Softer black for text */
+  width: 60px; /* Slightly increased size for visual balance */
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transitions */
+  padding: 5px;
+}
+
+.next-btn p:hover,
+.pre-btn p:hover {
+  background: #04b1e6; /* Subtle hover color change */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+  transform: scale(1.1); /* Slight scaling effect on hover */
+}
+
+.next-btn p:active,
+.pre-btn p:active {
+  transform: scale(0.95); /* Give it a pressed-down effect when clicked */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); /* Reduce shadow to simulate pressing */
+}
+
+
+@media screen and (max-width: 800px){
     
-  }
-  
-  .swiper-slide-2 {
-    text-align: center;
-    border-radius: 20px;
-    background: rgb(42,86,70);
-    background: linear-gradient(90deg, rgba(42,86,70,1) 13%, rgba(65,31,31,1) 71%);
-    margin-top:2%;
-    margin-bottom:4%;
-    margin-right:0;
-   
-     
-    width:30%; 
-    height:100%;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-  }
-  
-  .swiper-slide-2 img {
-    display: block;
-    border-radius: 100%;
-    width: 10%;
-    margin:auto;
-    height:30px;
-    object-fit: cover;
-  }
+.review-heading h1{
+    font-size: 2rem;
+ }
+ .next-btn ,
+.pre-btn {
+    width:40px;
+    height:90%;
+    
+}
+.pre-btn{
+  left:4px;
+}
+}
 
-  .swiper-slide-2 .review_text{
-    color:white;
-    width:90%;
-    text-align: center;
-    margin:auto;
-  }
-  
-  .swiper-slide-2 .review_name{
-    display: inline-block;
-    color:#ffffff;
-    font-size: 0.8rem;
-  }
-  .swiper-slide-2 .review_rating{
-    color:rgb(251, 255, 13);
-    padding:3%;
-    gap:1;
-    text-align: start;
-    margin-left:5%;
-  }
+@media screen and (max-width:500px) {
 
- 
+  .review-heading h1{
+    text-align: center;
+  }
+}
+
+

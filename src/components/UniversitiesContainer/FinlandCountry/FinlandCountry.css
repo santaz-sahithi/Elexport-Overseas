@@ -1,4 +1,4 @@
-.why-rel-country-container-Finland{
+.Fin-why-rel-country-container-Finland{
     background-color: rgb(17, 84, 171);
     display: flex;
     height: 50vw;
@@ -6,16 +6,16 @@
     justify-content:center;
 }
 
-.why-rel-country-container-flag{
+.Fin-why-rel-country-container-flag{
     padding: 2% 2% 2% 2%;
     z-index: 0;
 }
 
-.why-rel-country-container-flag img{
+.Fin-why-rel-country-container-flag img{
     height: 35vw;
     width: 35vw;
     border-radius: 50%;
-    border: 2px solid #F3AE27;   
+    border: 2px solid #ffffff;   
 }
 
 
@@ -30,13 +30,13 @@
     width: 40vw; 
     color: black;
     line-height: 1.3;
-    margin: 1% 4%;
+    margin: 2% 4%;
 }
 
 .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
     position: relative;
     border-radius: 50px;
-    height:  5.2vw;
+    height:  9vh;
     margin: 1vw;
     width: 43vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -93,14 +93,19 @@
 
 
 @media only screen and (max-width: 1000px){
+
+    .rel-text-Fin{
+        width: 50vw;
+    }
+
     .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
-        height: 6vw;
-        width: 40vw;
+        height: 7vw;
+        width: 45vw;
     }
 
     .rel-text-Fin p{
         font-size: 14px;
-        width: 35vw;
+        width: 40vw;
     }
 }
 
@@ -122,12 +127,12 @@
 }
 
 @media only screen and (max-width:590px) {
-    .why-rel-country-container-Finland{
+    .Fin-why-rel-country-container-Finland{
         flex-direction: column;
         height: fit-content;
     }
 
-    .why-rel-country-container-flag{
+    .Fin-why-rel-country-container-flag{
         margin-top: 20px;
     }
 
@@ -136,14 +141,14 @@
         padding-left: 0;
     }
 
-    .why-rel-country-container-flag img{
+    .Fin-why-rel-country-container-flag img{
         height: 55vw;
         width: 55vw;
     }
 
     .Fin-child1,.Fin-child2,.Fin-child3,.Fin-child4,.Fin-child5 {
         width: 70vw;
-        height: 12vw;
+        height: 10vh;
         margin: 3vw;
         left: 0;
     }
@@ -151,13 +156,12 @@
     .rel-text-Fin p{
         width: 65vw;
         font-size: 16px;
-        padding: 1.2vw;
         margin-left: 10px;
     }   
 }
 
 @media screen and (max-width:500px) {
-    .why-rel-country-container-Finland{
+    .Fin-why-rel-country-container-Finland{
         flex-direction: column;
         height: fit-content;
     }
@@ -166,7 +170,7 @@
         height: 10vh;
         width: 85vw;
     }
-    .why-rel-country-container-flag img{
+    .Fin-why-rel-country-container-flag img{
         width: 60vw;
         height: 60vw;
     }

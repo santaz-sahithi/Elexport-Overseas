@@ -1,18 +1,18 @@
-.why-rel-country-container{
-    background: #0C5448;
+.UK-why-rel-country-container-UK{
+    background: linear-gradient(0deg, rgba(1, 33, 105, 1) 7%, rgba(255, 255, 255, 1) 99%);
     display: flex;
     height: 50vw;
     align-items: center;
     justify-content:center;
 }
 
-.why-rel-country-container-flag{
+.UK-why-rel-country-container-flag{
     padding: 2% 2% 2% 2%;
     z-index: 0;
     
 }
 
-.why-rel-country-container-flag img{
+.UK-why-rel-country-container-flag img{
     height: 35vw;
     width: 35vw;
     border-radius: 50%;
@@ -29,7 +29,7 @@
     font-size: 16px;
     width: 31vw; 
     color: white;
-    margin: 0.5% 3%;
+    margin: 3% 3%;
     line-height: 1.5;
 }
 
@@ -110,7 +110,7 @@
 }
 
 @media only screen and (min-width:590px) and (max-width: 700px) {
-    .why-rel-country-container{
+    .UK-why-rel-country-container-UK{
         flex-direction: column;
         height: fit-content;
     }
@@ -131,16 +131,16 @@
 }
 
 @media only screen and (max-width:590px) {
-    .why-rel-country-container{
+    .UK-why-rel-country-container-UK{
         flex-direction: column;
         height: fit-content;
     }
 
-    .why-rel-country-container-flag{
+    .UK-why-rel-country-container-flag{
         margin-top: 20px;
     }
 
-    .why-rel-country-container-flag img{
+    .UK-why-rel-country-container-flag img{
         height: 55vw;
         width: 55vw;
     }
@@ -165,7 +165,7 @@
         height: 10vh;
         width: 85vw;
     }
-    .why-rel-country-container-flag img{
+    .UK-why-rel-country-container-flag img{
         width: 60vw;
         height: 60vw;
     }

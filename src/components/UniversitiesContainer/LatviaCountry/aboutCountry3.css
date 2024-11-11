@@ -1,4 +1,4 @@
-.why-rel-country-container{
+.Latvia-why-rel-country-container{
     background: linear-gradient(1deg, rgb(168, 160, 160) 0%, rgb(44, 42, 42) 80%);
     display: flex;
     height: 50vw;
@@ -6,11 +6,11 @@
     justify-content:center;
 }
 
-.why-rel-country-container-flag{
+.Latvia-why-rel-country-container-flag{
     padding: 2% 2% 2% 2%;
 }
 
-.why-rel-country-container-flag img{
+.Latvia-why-rel-country-container-flag img{
     height: 35vw;
     width: 35vw;
     border-radius: 50%;
@@ -25,7 +25,6 @@
 .rel-text-Lat p{
     font-size: 16px;
     width: 25vw;
-    /* height: 50px;  */
     color: white;
     padding: 0 1vw;
     margin: 10px 0;
@@ -36,7 +35,6 @@
 .Lat-child1,.Lat-child2,.Lat-child3,.Lat-child4,.Lat-child5 {
     position: relative;
     border-radius: 50px;
-    height:  4bh;   
     margin: 2vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -80,7 +78,7 @@
 }
 
 @media only screen and (min-width:590px) and (max-width: 700px) {
-    .why-rel-country-container{
+    .Latvia-why-rel-country-container{
         flex-direction: row;
         height: fit-content;
     }
@@ -100,16 +98,16 @@
 }
 
 @media only screen and (max-width:590px) {
-    .why-rel-country-container{
+    .Latvia-why-rel-country-container{
         flex-direction: column;
         height: fit-content;
     }
 
-    .why-rel-country-container-flag{
+    .Latvia-why-rel-country-container-flag{
         margin-top: 20px;
     }
 
-    .why-rel-country-container-flag img{
+    .Latvia-why-rel-country-container-flag img{
         height: 55vw;
         width: 55vw;
     }
@@ -133,7 +131,7 @@
         height: fit-content;
         width: 85vw;
     }
-    .why-rel-country-container-flag img{
+    .Latvia-why-rel-country-container-flag img{
         width: 60vw;
         height: 60vw;
     }

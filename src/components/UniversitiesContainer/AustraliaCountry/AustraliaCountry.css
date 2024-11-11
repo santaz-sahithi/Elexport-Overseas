@@ -101,17 +101,18 @@
 
     .Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
         height: 9vh;
-        width: 45vw;
+        width: 60vw;
         padding: 0;
         margin: 2vw;
+        left: 0;
     }
 
 
     .rel-text-Aus p{
         font-size: 15px;
-        width: 40vw;
+        width: 55vw;
         margin: 5px 15px;
-        padding: 0;
+        padding: 5px;
     }
 
 
@@ -134,14 +135,14 @@
 
     .Australia-child1,.Australia-child2,.Australia-child3,.Australia-child4,.Australia-child5 {
         width: 75vw;
-        height: 12vh;
+        height: fit-content;
         left: 0;
     }
 
     .rel-text-Aus p{
         width: 65vw;
         font-size: 1rem;
-        padding: 10px 15px;
+        padding:15px;
     }
     
 }

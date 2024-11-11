@@ -1,81 +1,50 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './ReviewSection.css'
 
-import { FaStar } from "react-icons/fa";
+import review1 from '../../../assests/ReviewEx1.jpg'
+import review2 from '../../../assests/ReviewEx2.jpg'
+import review3 from '../../../assests/ReviewEx3.jpg'
+import review4 from '../../../assests/ReviewEx4.jpg'
+import review5 from '../../../assests/ReviewEx5.jpg'
+import MyReviewCard from './MyReviewCard'
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
 
 
-import Australiaicon from "../resources/ReviewEx1.png";
-import USAicon from "../resources/ReviewEx2.png";
-import Germanyicon from "../resources/ReviewEx3.png";
-import Canadaicon from "../resources/ReviewEx3.png";
-import UKicon from "../resources/ReviewEx2.png";
-
-const reviews = [
-    { imgSrc: USAicon, name: "USA" },
-    { imgSrc: Germanyicon, name: "Germany" },
-    { imgSrc: UKicon, name: "United Kingdom" },
-    { imgSrc: Australiaicon, name: "Australia" },
-    { imgSrc: UKicon, name: "United Kingdom" },
-    { imgSrc: Australiaicon, name: "Australia" },
-    { imgSrc: Canadaicon, name: "Canada" },
-    { imgSrc: Canadaicon, name: "Canada" },
-  ];
 const ReviewSection = () => {
-  return (
-    
-  
-      <>
-      <h1>What People Say...</h1>
-      <Swiper
-        slidesPerView={1}
-        spaceBetween={5}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-        
-          640: {
-            slidesPerView: 2,   // 2 slides per view for screens >= 640px
-            spaceBetween: 20,   // Reduced space between slides for screens >= 640px
-          },
-          768: {
-            slidesPerView: 3,   // 3 slides per view for screens >= 768px
-            spaceBetween: 30,   // Space between slides for screens >= 768px
-          },
-          1024: {
-            slidesPerView: 3,   // 4 slides per view for screens >= 1024px
-            spaceBetween: 20,   // Default space between slides
-          },
-        }}
-      
-        modules={[Pagination]}
-        className="mySwiper2"
-      >
-    
-    {reviews.map((review, index) => (
-               <SwiperSlide className='swiper-slide-2'>
-                <div className='review_box '>
-                  <div className='review_rating'><FaStar/><FaStar/><FaStar/></div>
-                  <div className='review_text'><p>Excellent consultancy services with a deep understanding of industry trends. 
-                    Communication was clear and professional throughout the entire process.”</p></div>
-                  <div className='review_img'><img src={review.imgSrc} alt={review.name} /> </div>
-                  <div><h3 className="review_name">{review.name}</h3></div>
-                </div>
-              
-             
-                  </SwiperSlide>
-                ))}
-         
-      </Swiper>
-    </>
-   
-  );
-}
+  const boxRef = useRef(null); // Create a ref to the product-container
 
-export default ReviewSection
+  const btnpressprev = () => {
+    let cardWidth = boxRef.current.querySelector(".r-my-card").clientWidth; // Get width of a single card
+    boxRef.current.scrollLeft -= cardWidth; // Move by two cards' width
+  };
+  
+  const btnpressnext = () => {
+    let cardWidth = boxRef.current.querySelector(".r-my-card").clientWidth;
+    boxRef.current.scrollLeft += cardWidth; 
+  };
+  return (
+   
+  <div className="review-carousel">
+  <button className="pre-btn" onClick={btnpressprev}>
+    <p>&lt;</p>
+  </button>
+  <button className="next-btn" onClick={btnpressnext}>
+    <p>&gt;</p>
+  </button>
+
+  <div className="review-heading">
+    <h1>What Our Guests Say...</h1>
+  </div>
+  <div className="review-container" ref={boxRef}>
+    <MyReviewCard className="my-card" stars={5} imgSrc={review1} name="Anna" desc="Excellent consultancy services with a deep understanding of industry trends.Communication was clear and professional throughout the entire process."/>
+    <MyReviewCard className="my-card" stars={5} imgSrc={review2} name="Hema" desc="Exceptional guidance throughout the entire process! Their expertise made my overseas education journey seamless." />
+    <MyReviewCard className="my-card" stars={4} imgSrc={review3} name="Rithika" desc="The team was incredibly supportive, offering personalized advice tailored to my study goals abroad."/>
+    <MyReviewCard className="my-card" stars={5} imgSrc={review4} name="John" desc="Professional and reliable, they provided clear insights and guidance on every step toward international education." />
+    <MyReviewCard className="my-card" stars={4} imgSrc={review5} name="Kale" desc="Highly recommend! They simplified complex procedures, helping me secure admission to my dream university."/>
+  </div>
+</div>
+  )
+};
+
+export default ReviewSection;
+      

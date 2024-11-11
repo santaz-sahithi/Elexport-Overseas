@@ -1,4 +1,4 @@
-.why-rel-country-container{
+.Slo-why-rel-country-container{
     background: #0C5448;
     display: flex;
     height: 50vw;
@@ -6,13 +6,13 @@
     justify-content:center;
 }
 
-.why-rel-country-container-flag{
+.Slo-why-rel-country-container-flag{
     padding: 2% 2% 2% 2%;
     z-index: 0;
     
 }
 
-.why-rel-country-container-flag img{
+.Slo-why-rel-country-container-flag img{
     height: 35vw;
     width: 35vw;
     border-radius: 50%;
@@ -101,35 +101,44 @@
 }
 
 @media only screen and (min-width:590px) and (max-width: 700px) {
-    .why-rel-country-container{
+    .Slo-why-rel-country-container{
         flex-direction: column;
         height: fit-content;
     }
 
+    .Slo-why-rel-country-container-flag img{
+        height: 55vw;
+        width: 55vw;
+    }
+
     .slo-child1,.slo-child2,.slo-child3,.slo-child4,.slo-child5 {
-        height: 6vh;
+        height: 10vh;
+        left: 0;
+        width: 80vw;
+        margin: 2vw;
     }
 
     .rel-text-slo p{
-        margin: 1% 2%;
-        font-size: 1.6vw;
+        margin: 2%;
+        font-size: 16px;
         padding: 0 1%;
+        width: 75vw;
     }
 
 
 }
 
 @media only screen and (max-width:590px) {
-    .why-rel-country-container{
+    .Slo-why-rel-country-container{
         flex-direction: column;
         height: fit-content;
     }
 
-    .why-rel-country-container-flag{
+    .Slo-why-rel-country-container-flag{
         margin-top: 20px;
     }
 
-    .why-rel-country-container-flag img{
+    .Slo-why-rel-country-container-flag img{
         height: 55vw;
         width: 55vw;
     }
@@ -163,7 +172,7 @@
         height: 10vh;
         width: 85vw;
     }
-    .why-rel-country-container-flag img{
+    .Slo-why-rel-country-container-flag img{
         width: 60vw;
         height: 60vw;
     }
